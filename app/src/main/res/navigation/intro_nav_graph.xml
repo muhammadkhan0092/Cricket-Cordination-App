@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intro_nav_graph"
+    app:startDestination="@id/fragmentSplashScreen">
+
+    <fragment
+        android:id="@+id/fragmentIntroduction"
+        android:name="com.example.fyp.fragments.intro.FragmentIntroduction"
+        android:label="fragment_introduction"
+        tools:layout="@layout/fragment_introduction" >
+        <action
+            android:id="@+id/action_fragmentIntroduction_to_fragmentReg"
+            app:destination="@id/fragmentReg" />
+        <action
+            android:id="@+id/action_fragmentIntroduction_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentIntroduction_to_fragmentRegsponser"
+            app:destination="@id/fragmentRegsponser" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.example.fyp.fragments.intro.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentReg"
+            app:destination="@id/fragmentReg" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentIntroduction"
+            app:destination="@id/fragmentIntroduction" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentForgetPage3"
+            app:destination="@id/fragmentForgetPage3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentReg"
+        android:name="com.example.fyp.fragments.intro.FragmentReg"
+        android:label="fragment_reg"
+        tools:layout="@layout/fragment_reg" >
+        <action
+            android:id="@+id/action_fragmentReg_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentReg_to_fragmentLogin2"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSplashScreen"
+        android:name="com.example.fyp.fragments.intro.FragmentSplashScreen"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_fragmentSplashScreen_to_fragmentIntroduction"
+            app:destination="@id/fragmentIntroduction" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentForgetPage3"
+        android:name="com.example.fyp.fragments.intro.FragmentForgetPage"
+        android:label="FragmentForgetPage" >
+        <action
+            android:id="@+id/action_fragmentForgetPage3_to_fragmentNewPasward"
+            app:destination="@id/fragmentNewPasward" />
+        <action
+            android:id="@+id/action_fragmentForgetPage3_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentNewPasward"
+        android:name="com.example.fyp.fragments.intro.FragmentNewPasward"
+        android:label="FragmentNewPasward" >
+        <action
+            android:id="@+id/action_fragmentNewPasward_to_fragmentPasswardChanged"
+            app:destination="@id/fragmentPasswardChanged" />
+        <action
+            android:id="@+id/action_fragmentNewPasward_to_fragmentPasswardChanged2"
+            app:destination="@id/fragmentPasswardChanged" />
+        <action
+            android:id="@+id/action_fragmentNewPasward_to_fragmentForgetPage3"
+            app:destination="@id/fragmentForgetPage3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPasswardChanged"
+        android:name="com.example.fyp.fragments.intro.FragmentPasswardChanged"
+        android:label="FragmentPasswardChanged" >
+        <action
+            android:id="@+id/action_fragmentPasswardChanged_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+        <action
+            android:id="@+id/action_fragmentPasswardChanged_to_fragmentLoginsponser"
+            app:destination="@id/fragmentLoginsponser" />
+        <action
+            android:id="@+id/action_fragmentPasswardChanged_to_fragmentLoginsponser2"
+            app:destination="@id/fragmentLoginsponser" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentRegsponser"
+        android:name="com.example.fyp.fragments.intro.FragmentRegsponser"
+        android:label="FragmentRegsponser" >
+        <action
+            android:id="@+id/action_fragmentRegsponser_to_fragmentLoginsponser"
+            app:destination="@id/fragmentLoginsponser" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLoginsponser"
+        android:name="com.example.fyp.fragments.intro.FragmentLoginsponser"
+        android:label="FragmentLoginsponser" >
+        <action
+            android:id="@+id/action_fragmentLoginsponser_to_fragmentForgetPage3"
+            app:destination="@id/fragmentForgetPage3" />
+    </fragment>
+</navigation>

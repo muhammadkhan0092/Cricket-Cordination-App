@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040996539182",
+    "project_id": "zaryabfyp",
+    "storage_bucket": "zaryabfyp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040996539182:android:b53664482fb67e8d94b8bf",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg7sIeu-7z-zXRi2amAaT_lnFkdda21Ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

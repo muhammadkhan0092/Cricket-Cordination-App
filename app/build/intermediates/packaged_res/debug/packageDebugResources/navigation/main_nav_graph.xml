@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_bar.xml"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.fyp.fragments.main.FragmentHome"
+        android:label="FragmentHome" />
+    <fragment
+        android:id="@+id/fragmentStore"
+        android:name="com.example.fyp.fragments.main.FragmentStore"
+        android:label="FragmentStore" >
+        <action
+            android:id="@+id/action_fragmentStore_to_fragmentPumaPage"
+            app:destination="@id/fragmentPumaPage" />
+        <action
+            android:id="@+id/action_fragmentStore_to_fragmentNikePage"
+            app:destination="@id/fragmentNikePage" />
+        <action
+            android:id="@+id/action_fragmentStore_to_fragmentAdidasPage"
+            app:destination="@id/fragmentAdidasPage" />
+        <action
+            android:id="@+id/action_fragmentStore_to_fragmentReebokPage"
+            app:destination="@id/fragmentReebokPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTournament"
+        android:name="com.example.fyp.fragments.main.FragmentTournament"
+        android:label="FragmentTournament" />
+    <fragment
+        android:id="@+id/fragmentProfile2"
+        android:name="com.example.fyp.fragments.main.FragmentProfile"
+        android:label="FragmentProfile" >
+        <action
+            android:id="@+id/action_fragmentProfile2_to_fragmentProfileopen"
+            app:destination="@id/fragmentProfileopen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentProfileopen"
+        android:name="com.example.fyp.fragments.intro.FragmentProfileopen"
+        android:label="FragmentProfileopen" >
+        <action
+            android:id="@+id/action_fragmentProfileopen_to_fragmentProfile2"
+            app:destination="@id/fragmentProfile2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPumaPage"
+        android:name="com.example.fyp.fragments.intro.FragmentPumaPage"
+        android:label="FragmentPumaPage" >
+        <action
+            android:id="@+id/action_fragmentPumaPage_to_fragmentGigPage"
+            app:destination="@id/fragmentGigPage" />
+        <action
+            android:id="@+id/action_fragmentPumaPage_to_fragmentGigPage2"
+            app:destination="@id/fragmentGigPage2" />
+        <action
+            android:id="@+id/action_fragmentPumaPage_to_fragmentGigPage3"
+            app:destination="@id/fragmentGigPage3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGigPage"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage"
+        android:label="FragmentGigPage" />
+    <fragment
+        android:id="@+id/fragmentGigPage2"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage2"
+        android:label="FragmentGigPage2" />
+    <fragment
+        android:id="@+id/fragmentGigPage3"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage3"
+        android:label="FragmentGigPage3" />
+    <fragment
+        android:id="@+id/fragmentNikePage"
+        android:name="com.example.fyp.fragments.intro.FragmentNikePage"
+        android:label="FragmentNikePage" >
+        <action
+            android:id="@+id/action_fragmentNikePage_to_fragmentGigPage4"
+            app:destination="@id/fragmentGigPage4" />
+        <action
+            android:id="@+id/action_fragmentNikePage_to_fragmentGigPage5"
+            app:destination="@id/fragmentGigPage5" />
+        <action
+            android:id="@+id/action_fragmentNikePage_to_fragmentGigPage6"
+            app:destination="@id/fragmentGigPage6" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGigPage4"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage4"
+        android:label="FragmentGigPage4" />
+    <fragment
+        android:id="@+id/fragmentGigPage5"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage5"
+        android:label="FragmentGigPage5" />
+    <fragment
+        android:id="@+id/fragmentGigPage6"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage6"
+        android:label="FragmentGigPage6" />
+    <fragment
+        android:id="@+id/fragmentAdidasPage"
+        android:name="com.example.fyp.fragments.intro.FragmentAdidasPage"
+        android:label="FragmentAdidasPage" >
+        <action
+            android:id="@+id/action_fragmentAdidasPage_to_fragmentGigPage7"
+            app:destination="@id/fragmentGigPage7" />
+        <action
+            android:id="@+id/action_fragmentAdidasPage_to_fragmentGigPage8"
+            app:destination="@id/fragmentGigPage8" />
+        <action
+            android:id="@+id/action_fragmentAdidasPage_to_fragmentGigPage9"
+            app:destination="@id/fragmentGigPage9" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGigPage7"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage7"
+        android:label="FragmentGigPage7" />
+    <fragment
+        android:id="@+id/fragmentGigPage8"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage8"
+        android:label="FragmentGigPage8" />
+    <fragment
+        android:id="@+id/fragmentGigPage9"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage9"
+        android:label="FragmentGigPage9" />
+    <fragment
+        android:id="@+id/fragmentReebokPage"
+        android:name="com.example.fyp.fragments.intro.FragmentReebokPage"
+        android:label="FragmentReebokPage" >
+        <action
+            android:id="@+id/action_fragmentReebokPage_to_fragmentGigPage10"
+            app:destination="@id/fragmentGigPage10" />
+        <action
+            android:id="@+id/action_fragmentReebokPage_to_fragmentGigPage11"
+            app:destination="@id/fragmentGigPage11" />
+        <action
+            android:id="@+id/action_fragmentReebokPage_to_fragmentGigPage12"
+            app:destination="@id/fragmentGigPage12" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentGigPage10"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage10"
+        android:label="FragmentGigPage10" />
+    <fragment
+        android:id="@+id/fragmentGigPage11"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage11"
+        android:label="FragmentGigPage11" />
+    <fragment
+        android:id="@+id/fragmentGigPage12"
+        android:name="com.example.fyp.fragments.intro.FragmentGigPage12"
+        android:label="FragmentGigPage12" />
+</navigation>

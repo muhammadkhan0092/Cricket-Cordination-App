@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/fragmentHome"
+    android:title="HOME"
+    android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/fragmentTournament"
+        android:title="GROUNDS"
+        android:icon="@drawable/ic_tour"/>
+
+    <item
+        android:id="@+id/fragmentStore"
+        android:title="STORE"
+        android:icon="@drawable/ic_store"/>
+
+    <item
+        android:id="@+id/fragmentProfile2"
+        android:title="PROFILE"
+        android:icon="@drawable/ic_person"/>
+
+</menu>
