@@ -48,7 +48,7 @@ class FragmentHome : Fragment() {
     }
 
     private fun zaryab() {
-
+        Toast.makeText(requireContext(), "geeg", Toast.LENGTH_SHORT).show()
     }
 
     private fun setupData() {
