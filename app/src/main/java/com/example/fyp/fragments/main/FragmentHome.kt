@@ -41,10 +41,16 @@ class FragmentHome : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setupRv()
         setupData()
+        zaryab()
         cricketAdapter.onClick = {
             Toast.makeText(requireContext(), "${it.name}", Toast.LENGTH_SHORT).show()
         }
     }
+
+    private fun zaryab() {
+
+    }
+
     private fun setupData() {
         val list = listOf(
             MainData(age = 25, image =R.drawable.babar, name = "Babar Azam", rating = "4.5" , agename =  "Year", category = "Batsmen"),
