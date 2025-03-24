@@ -34,18 +34,6 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragmentGigPage">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-566" />
-                            <option name="y" value="-45" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="fragmentIntroduction">
                     <value>
                       <LayoutPositions>
@@ -213,6 +201,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="fragmentRegGround">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-783" />
+                            <option name="y" value="239" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -449,8 +449,20 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-984" />
-                            <option name="y" value="211" />
+                            <option name="x" value="-1868" />
+                            <option name="y" value="135" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="fragmentIntroduction2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="150" />
+                            <option name="y" value="568" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -519,6 +531,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_fragmentProfileopen_to_fragmentIntroduction2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_fragmentProfileopen_to_fragmentProfile2">
                               <value>
                                 <LayoutPositions />
@@ -534,8 +551,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-170" />
+                            <option name="y" value="-18" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -560,6 +577,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="fragmentRGround">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1510" />
+                            <option name="y" value="202" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="fragmentReebokPage">
                     <value>
                       <LayoutPositions>
@@ -568,6 +597,25 @@
                             <option name="x" value="-1840" />
                             <option name="y" value="-350" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragmentReebokPage_to_fragmentGigPage10">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_fragmentReebokPage_to_fragmentGigPage11">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_fragmentReebokPage_to_fragmentGigPage12">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -613,9 +661,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-86" />
-                            <option name="y" value="327" />
+                            <option name="x" value="-1307" />
+                            <option name="y" value="330" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragmentTournament_to_fragmentLogin3">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>

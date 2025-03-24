@@ -56,6 +56,12 @@ public final class FragmentProfileBinding implements ViewBinding {
   public final ImageView imageView27;
 
   @NonNull
+  public final ImageView imageView52;
+
+  @NonNull
+  public final TextView logout;
+
+  @NonNull
   public final ConstraintLayout main;
 
   @NonNull
@@ -88,9 +94,10 @@ public final class FragmentProfileBinding implements ViewBinding {
       @NonNull ImageView imageView18, @NonNull ImageView imageView19,
       @NonNull ImageView imageView23, @NonNull ImageView imageView25,
       @NonNull ImageView imageView26, @NonNull ImageView imageView27,
-      @NonNull ConstraintLayout main, @NonNull TextView textView23, @NonNull TextView textView24,
-      @NonNull TextView textView26, @NonNull TextView textView27, @NonNull TextView textView28,
-      @NonNull TextView textView29, @NonNull TextView textView30, @NonNull View view) {
+      @NonNull ImageView imageView52, @NonNull TextView logout, @NonNull ConstraintLayout main,
+      @NonNull TextView textView23, @NonNull TextView textView24, @NonNull TextView textView26,
+      @NonNull TextView textView27, @NonNull TextView textView28, @NonNull TextView textView29,
+      @NonNull TextView textView30, @NonNull View view) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.button = button;
@@ -103,6 +110,8 @@ public final class FragmentProfileBinding implements ViewBinding {
     this.imageView25 = imageView25;
     this.imageView26 = imageView26;
     this.imageView27 = imageView27;
+    this.imageView52 = imageView52;
+    this.logout = logout;
     this.main = main;
     this.textView23 = textView23;
     this.textView24 = textView24;
@@ -207,6 +216,18 @@ public final class FragmentProfileBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView52;
+      ImageView imageView52 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView52 == null) {
+        break missingId;
+      }
+
+      id = R.id.logout;
+      TextView logout = ViewBindings.findChildViewById(rootView, id);
+      if (logout == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
 
       id = R.id.textView23;
@@ -259,8 +280,8 @@ public final class FragmentProfileBinding implements ViewBinding {
 
       return new FragmentProfileBinding((ConstraintLayout) rootView, btnBack, button, cardView10,
           editTextTextEmailAddress, imageView13, imageView18, imageView19, imageView23, imageView25,
-          imageView26, imageView27, main, textView23, textView24, textView26, textView27,
-          textView28, textView29, textView30, view);
+          imageView26, imageView27, imageView52, logout, main, textView23, textView24, textView26,
+          textView27, textView28, textView29, textView30, view);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

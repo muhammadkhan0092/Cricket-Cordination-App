@@ -1,3 +1,5 @@
 package com.example.fyp.data
 
-data class MainData(val ids : Int,val imageGround : Int,val name : String,val Groundname : String,val  price: String,val rating : String)
+data class MainData(val age: Int,val image : Int,val name: String,val agename: String,val rating : String,val category: String ) {
+
+}

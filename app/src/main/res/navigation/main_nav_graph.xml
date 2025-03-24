@@ -29,7 +29,14 @@
     <fragment
         android:id="@+id/fragmentTournament"
         android:name="com.example.fyp.fragments.main.FragmentTournament"
-        android:label="FragmentTournament" />
+        android:label="FragmentTournament" >
+        <action
+            android:id="@+id/action_fragmentTournament_to_fragmentLogin3"
+            app:destination="@id/fragmentRGround" />
+        <action
+            android:id="@+id/action_fragmentTournament_to_fragmentRGround"
+            app:destination="@id/fragmentRGround" />
+    </fragment>
     <fragment
         android:id="@+id/fragmentProfile2"
         android:name="com.example.fyp.fragments.main.FragmentProfile"
@@ -45,6 +52,9 @@
         <action
             android:id="@+id/action_fragmentProfileopen_to_fragmentProfile2"
             app:destination="@id/fragmentProfile2" />
+        <action
+            android:id="@+id/action_fragmentProfileopen_to_fragmentIntroduction2"
+            app:destination="@id/fragmentIntroduction2" />
     </fragment>
     <fragment
         android:id="@+id/fragmentPumaPage"
@@ -150,4 +160,13 @@
         android:id="@+id/fragmentGigPage12"
         android:name="com.example.fyp.fragments.intro.FragmentGigPage12"
         android:label="FragmentGigPage12" />
+    <fragment
+        android:id="@+id/fragmentIntroduction2"
+        android:name="com.example.fyp.fragments.intro.FragmentIntroduction"
+        android:label="fragment_introduction"
+        tools:layout="@layout/fragment_introduction" />
+    <fragment
+        android:id="@+id/fragmentRGround"
+        android:name="com.example.fyp.fragments.intro.FragmentRGround"
+        android:label="FragmentRGround" />
 </navigation>

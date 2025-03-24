@@ -47,13 +47,14 @@ class FragmentHome : Fragment() {
     }
     private fun setupData() {
         val list = listOf(
-            MainData(1,R.drawable.img11,"2.5 km away","Crystal Park Ground","20,000 Pkr","2.0" ),
-            MainData(2,R.drawable.img_5,"4 km away","Golden Turf Stadium","30,000 Pkr","3.5"),
-            MainData(3,R.drawable.img6,"3.5 km away","Summit View Ground","40,000 Pkr","4.0"),
-            MainData(4,R.drawable.img7,"1.5 km away","Lakeside Ground","45,000 Pkr","5.0"),
-            MainData(5,R.drawable.img8,"1 km away","Bayview Ground","35,000 Pkr","4.5"),
-            MainData(6,R.drawable.img9,"2 km away","Iqbal Ground","25,000 Pkr","3.0"),
-            MainData(7,R.drawable.img10,"3 km away","Bolan Ground","10,000 Pkr","1.5"),
+            MainData(age = 25, image =R.drawable.babar, name = "Babar Azam", rating = "4.5" , agename =  "Year", category = "Batsmen"),
+            MainData(age = 26, image =R.drawable.babar, name = "Zaryab Ali Haider", rating = "5.0" , agename =  "Year", category = "Bowler"),
+            MainData(age = 27, image =R.drawable.babar, name = "Muhammad Khan", rating = "4.1" , agename =  "Year", category = "Batsmen"),
+            MainData(age = 28, image =R.drawable.babar, name = "Hammad ALi", rating = "4.0" , agename =  "Year", category = "Batsmen"),
+            MainData(age = 29, image =R.drawable.babar, name = "Muhammad Hamza", rating = "4.3" , agename =  "Year", category = "Bowler"),
+            MainData(age = 22, image =R.drawable.babar, name = "Moeed Kayani", rating = "4.8" , agename =  "Year", category = "Batsmen"),
+            MainData(age = 23, image =R.drawable.babar, name = "Hassan Ali", rating = "4.9" , agename =  "Year", category = "Bowler"),
+
         )
         cricketAdapter.differ.submitList(list)
     }

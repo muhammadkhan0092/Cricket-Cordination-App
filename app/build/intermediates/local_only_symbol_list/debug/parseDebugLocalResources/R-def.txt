@@ -8,6 +8,7 @@ color black
 color main_selection
 color white
 drawable b3
+drawable babar
 drawable baseline_add_circle_outline_24
 drawable baseline_arrow_back_ios_24
 drawable baseline_arrow_forward_24
@@ -64,6 +65,7 @@ drawable p2
 drawable p3
 drawable p4
 drawable pict
+drawable picture
 drawable profilefolwers
 drawable s1
 drawable s2
@@ -96,6 +98,7 @@ id action_fragmentPasswardChanged_to_fragmentLogin
 id action_fragmentPasswardChanged_to_fragmentLoginsponser
 id action_fragmentPasswardChanged_to_fragmentLoginsponser2
 id action_fragmentProfile2_to_fragmentProfileopen
+id action_fragmentProfileopen_to_fragmentIntroduction2
 id action_fragmentProfileopen_to_fragmentProfile2
 id action_fragmentPumaPage_to_fragmentGigPage
 id action_fragmentPumaPage_to_fragmentGigPage2
@@ -111,6 +114,8 @@ id action_fragmentStore_to_fragmentAdidasPage
 id action_fragmentStore_to_fragmentNikePage
 id action_fragmentStore_to_fragmentPumaPage
 id action_fragmentStore_to_fragmentReebokPage
+id action_fragmentTournament_to_fragmentLogin3
+id action_fragmentTournament_to_fragmentRGround
 id adidas
 id bottomNavView
 id btnBack
@@ -124,6 +129,7 @@ id button3
 id button4
 id button5
 id button6
+id button7
 id button8
 id cardView
 id cardView10
@@ -149,7 +155,6 @@ id editText2
 id editText3
 id editTextNumber
 id editTextNumber2
-id editTextNumber3
 id editTextTextEmailAddress
 id editTextTextEmailAddress2
 id editTextTextPassword
@@ -170,6 +175,7 @@ id fragmentGigPage8
 id fragmentGigPage9
 id fragmentHome
 id fragmentIntroduction
+id fragmentIntroduction2
 id fragmentLogin
 id fragmentLoginsponser
 id fragmentNewPasward
@@ -178,6 +184,7 @@ id fragmentPasswardChanged
 id fragmentProfile2
 id fragmentProfileopen
 id fragmentPumaPage
+id fragmentRGround
 id fragmentReebokPage
 id fragmentReg
 id fragmentRegsponser
@@ -187,6 +194,7 @@ id fragmentTournament
 id g1
 id g3
 id g4
+id ground
 id guideline
 id guideline10
 id guideline11
@@ -224,7 +232,6 @@ id imageView25
 id imageView26
 id imageView27
 id imageView28
-id imageView29
 id imageView3
 id imageView30
 id imageView31
@@ -250,11 +257,13 @@ id imageView49
 id imageView5
 id imageView50
 id imageView51
+id imageView52
 id imageView6
 id imageView7
 id imageView8
 id imageView9
 id intro_nav_graph
+id logout
 id main
 id main_nav_bar.xml
 id niike
@@ -320,7 +329,21 @@ id textView58
 id textView59
 id textView6
 id textView60
+id textView61
+id textView62
+id textView63
+id textView64
+id textView65
+id textView67
+id textView68
+id textView69
 id textView7
+id textView70
+id textView71
+id textView72
+id textView73
+id textView74
+id textView75
 id textView8
 id textView9
 id tvGoToLogin
@@ -354,6 +377,7 @@ layout fragment_profile
 layout fragment_pumapage
 layout fragment_reebokpage
 layout fragment_reg
+layout fragment_reg_ground
 layout fragment_regsponser
 layout fragment_splash_screen
 layout fragment_store
@@ -361,6 +385,7 @@ layout fragment_tournament
 layout openprofile
 layout rs_brands_item
 layout rv_cricket_item
+layout rz_brands_item
 menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

@@ -36,16 +36,10 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final EditText editText3;
 
   @NonNull
-  public final TextView editTextNumber3;
-
-  @NonNull
   public final ImageView imageView24;
 
   @NonNull
   public final ImageView imageView28;
-
-  @NonNull
-  public final ImageView imageView29;
 
   @NonNull
   public final ImageView imageView6;
@@ -83,23 +77,27 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textView6;
 
+  @NonNull
+  public final TextView textView64;
+
+  @NonNull
+  public final TextView textView65;
+
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView11,
       @NonNull CardView cardView13, @NonNull CardView cardView14, @NonNull EditText editText3,
-      @NonNull TextView editTextNumber3, @NonNull ImageView imageView24,
-      @NonNull ImageView imageView28, @NonNull ImageView imageView29, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView24, @NonNull ImageView imageView28, @NonNull ImageView imageView6,
       @NonNull ImageView imageView8, @NonNull ConstraintLayout main, @NonNull RecyclerView rv,
       @NonNull TextView textView13, @NonNull TextView textView31, @NonNull TextView textView32,
       @NonNull TextView textView33, @NonNull TextView textView34, @NonNull TextView textView35,
-      @NonNull TextView textView36, @NonNull TextView textView6) {
+      @NonNull TextView textView36, @NonNull TextView textView6, @NonNull TextView textView64,
+      @NonNull TextView textView65) {
     this.rootView = rootView;
     this.cardView11 = cardView11;
     this.cardView13 = cardView13;
     this.cardView14 = cardView14;
     this.editText3 = editText3;
-    this.editTextNumber3 = editTextNumber3;
     this.imageView24 = imageView24;
     this.imageView28 = imageView28;
-    this.imageView29 = imageView29;
     this.imageView6 = imageView6;
     this.imageView8 = imageView8;
     this.main = main;
@@ -112,6 +110,8 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.textView35 = textView35;
     this.textView36 = textView36;
     this.textView6 = textView6;
+    this.textView64 = textView64;
+    this.textView65 = textView65;
   }
 
   @Override
@@ -165,12 +165,6 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextNumber3;
-      TextView editTextNumber3 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextNumber3 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView24;
       ImageView imageView24 = ViewBindings.findChildViewById(rootView, id);
       if (imageView24 == null) {
@@ -180,12 +174,6 @@ public final class FragmentHomeBinding implements ViewBinding {
       id = R.id.imageView28;
       ImageView imageView28 = ViewBindings.findChildViewById(rootView, id);
       if (imageView28 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView29;
-      ImageView imageView29 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView29 == null) {
         break missingId;
       }
 
@@ -257,10 +245,22 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView64;
+      TextView textView64 = ViewBindings.findChildViewById(rootView, id);
+      if (textView64 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView65;
+      TextView textView65 = ViewBindings.findChildViewById(rootView, id);
+      if (textView65 == null) {
+        break missingId;
+      }
+
       return new FragmentHomeBinding((ConstraintLayout) rootView, cardView11, cardView13,
-          cardView14, editText3, editTextNumber3, imageView24, imageView28, imageView29, imageView6,
-          imageView8, main, rv, textView13, textView31, textView32, textView33, textView34,
-          textView35, textView36, textView6);
+          cardView14, editText3, imageView24, imageView28, imageView6, imageView8, main, rv,
+          textView13, textView31, textView32, textView33, textView34, textView35, textView36,
+          textView6, textView64, textView65);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

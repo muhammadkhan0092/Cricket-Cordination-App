@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.fyp.data.MainData
+import com.example.fyp.databinding.RsBrandsItemBinding
 import com.example.fyp.databinding.RvCricketItemBinding
 
 
@@ -16,7 +17,7 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
 
     private val diffUtil =object : DiffUtil.ItemCallback<MainData>(){
         override fun areItemsTheSame(oldItem: MainData, newItem: MainData): Boolean {
-            return oldItem.ids==newItem.ids
+            return oldItem==newItem
         }
 
         override fun areContentsTheSame(oldItem: MainData, newItem: MainData): Boolean {
@@ -40,11 +41,11 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
     override fun onBindViewHolder(holder: CricketViewHolder, position: Int) {
         val item = differ.currentList[position]
         holder.binding.apply {
-            cv.setImageResource(item.imageGround)
-            textView14.text = item.name
-            textView20.text = item.Groundname
-            textView21.text = item.price
+            cv.setImageResource(item.image)
+            textView20.text = item.name
+            textView61.text = item.age.toString()
             textView22.text = item.rating
+            textView62.text = item.category
         }
         holder.itemView.setOnClickListener {
             onClick?.invoke(item)

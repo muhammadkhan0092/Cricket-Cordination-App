@@ -34,7 +34,13 @@ class FragmentProfile : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         onGoToEdit()
+        lohouut()
     }
+
+    private fun lohouut() {
+        binding.logout.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentProfileopen_to_fragmentIntroduction2)
+        }    }
 
     private fun onGoToEdit() {
         binding.button.setOnClickListener {

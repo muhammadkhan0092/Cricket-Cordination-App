@@ -39,6 +39,9 @@ public final class FragmentTournamentBinding implements ViewBinding {
   public final EditText editText3;
 
   @NonNull
+  public final TextView ground;
+
+  @NonNull
   public final ImageView imageView10;
 
   @NonNull
@@ -91,18 +94,20 @@ public final class FragmentTournamentBinding implements ViewBinding {
 
   private FragmentTournamentBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
       @NonNull CardView cardView2, @NonNull CardView cardView3, @NonNull CardView cardView4,
-      @NonNull EditText editText3, @NonNull ImageView imageView10, @NonNull ImageView imageView11,
-      @NonNull ImageView imageView12, @NonNull ImageView imageView6, @NonNull ImageView imageView9,
-      @NonNull ConstraintLayout main, @NonNull RecyclerView rs, @NonNull RecyclerView rv,
-      @NonNull TextView textView13, @NonNull TextView textView15, @NonNull TextView textView16,
-      @NonNull TextView textView17, @NonNull TextView textView18, @NonNull TextView textView19,
-      @NonNull TextView textView24, @NonNull TextView textView25, @NonNull TextView textView6) {
+      @NonNull EditText editText3, @NonNull TextView ground, @NonNull ImageView imageView10,
+      @NonNull ImageView imageView11, @NonNull ImageView imageView12, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView9, @NonNull ConstraintLayout main, @NonNull RecyclerView rs,
+      @NonNull RecyclerView rv, @NonNull TextView textView13, @NonNull TextView textView15,
+      @NonNull TextView textView16, @NonNull TextView textView17, @NonNull TextView textView18,
+      @NonNull TextView textView19, @NonNull TextView textView24, @NonNull TextView textView25,
+      @NonNull TextView textView6) {
     this.rootView = rootView;
     this.cardView = cardView;
     this.cardView2 = cardView2;
     this.cardView3 = cardView3;
     this.cardView4 = cardView4;
     this.editText3 = editText3;
+    this.ground = ground;
     this.imageView10 = imageView10;
     this.imageView11 = imageView11;
     this.imageView12 = imageView12;
@@ -176,6 +181,12 @@ public final class FragmentTournamentBinding implements ViewBinding {
       id = R.id.editText3;
       EditText editText3 = ViewBindings.findChildViewById(rootView, id);
       if (editText3 == null) {
+        break missingId;
+      }
+
+      id = R.id.ground;
+      TextView ground = ViewBindings.findChildViewById(rootView, id);
+      if (ground == null) {
         break missingId;
       }
 
@@ -278,9 +289,9 @@ public final class FragmentTournamentBinding implements ViewBinding {
       }
 
       return new FragmentTournamentBinding((ConstraintLayout) rootView, cardView, cardView2,
-          cardView3, cardView4, editText3, imageView10, imageView11, imageView12, imageView6,
-          imageView9, main, rs, rv, textView13, textView15, textView16, textView17, textView18,
-          textView19, textView24, textView25, textView6);
+          cardView3, cardView4, editText3, ground, imageView10, imageView11, imageView12,
+          imageView6, imageView9, main, rs, rv, textView13, textView15, textView16, textView17,
+          textView18, textView19, textView24, textView25, textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
