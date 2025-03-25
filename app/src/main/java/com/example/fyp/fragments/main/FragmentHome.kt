@@ -41,7 +41,6 @@ class FragmentHome : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setupRv()
         setupData()
-        zaryab()
         cricketAdapter.onClick = {
             Toast.makeText(requireContext(), "${it.name}", Toast.LENGTH_SHORT).show()
         }
