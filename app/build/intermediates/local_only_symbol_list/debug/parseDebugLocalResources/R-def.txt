@@ -329,9 +329,7 @@ id textView58
 id textView59
 id textView6
 id textView60
-id textView61
 id textView62
-id textView63
 id textView64
 id textView65
 id textView67
@@ -344,6 +342,8 @@ id textView72
 id textView73
 id textView74
 id textView75
+id textView76
+id textView77
 id textView8
 id textView9
 id tvGoToLogin
@@ -378,6 +378,7 @@ layout fragment_pumapage
 layout fragment_reebokpage
 layout fragment_reg
 layout fragment_reg_ground
+layout fragment_reg_ground1
 layout fragment_regsponser
 layout fragment_splash_screen
 layout fragment_store

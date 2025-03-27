@@ -499,6 +499,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="fragmentPlayerProfileCheck">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-2164" />
+                            <option name="y" value="147" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="fragmentProfile2">
                     <value>
                       <LayoutPositions>
@@ -668,6 +680,11 @@
                         <option name="myPositions">
                           <map>
                             <entry key="action_fragmentTournament_to_fragmentLogin3">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_fragmentTournament_to_fragmentRGround">
                               <value>
                                 <LayoutPositions />
                               </value>

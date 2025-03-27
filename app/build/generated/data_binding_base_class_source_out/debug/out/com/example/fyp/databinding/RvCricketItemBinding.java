@@ -33,25 +33,17 @@ public final class RvCricketItemBinding implements ViewBinding {
   public final TextView textView22;
 
   @NonNull
-  public final TextView textView61;
-
-  @NonNull
   public final TextView textView62;
-
-  @NonNull
-  public final TextView textView63;
 
   private RvCricketItemBinding(@NonNull CardView rootView, @NonNull ImageView cv,
       @NonNull ImageView imageView7, @NonNull TextView textView20, @NonNull TextView textView22,
-      @NonNull TextView textView61, @NonNull TextView textView62, @NonNull TextView textView63) {
+      @NonNull TextView textView62) {
     this.rootView = rootView;
     this.cv = cv;
     this.imageView7 = imageView7;
     this.textView20 = textView20;
     this.textView22 = textView22;
-    this.textView61 = textView61;
     this.textView62 = textView62;
-    this.textView63 = textView63;
   }
 
   @Override
@@ -105,26 +97,14 @@ public final class RvCricketItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView61;
-      TextView textView61 = ViewBindings.findChildViewById(rootView, id);
-      if (textView61 == null) {
-        break missingId;
-      }
-
       id = R.id.textView62;
       TextView textView62 = ViewBindings.findChildViewById(rootView, id);
       if (textView62 == null) {
         break missingId;
       }
 
-      id = R.id.textView63;
-      TextView textView63 = ViewBindings.findChildViewById(rootView, id);
-      if (textView63 == null) {
-        break missingId;
-      }
-
       return new RvCricketItemBinding((CardView) rootView, cv, imageView7, textView20, textView22,
-          textView61, textView62, textView63);
+          textView62);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -38,149 +38,175 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="serif"
-                android:text="Get Started"
+                android:text="Golden Turf \nStadium"
                 android:textColor="@color/black"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintStart_toStartOf="@+id/textView67"
+                app:layout_constraintTop_toBottomOf="@+id/textView67"
+                app:srcCompat="@drawable/baseline_star_24" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="3.5"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="132dp"
+                android:src="@drawable/baseline_watch_later_24"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textView68"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="16dp"
                 android:fontFamily="serif"
-                android:text="Enter your mobile number to continue"
+                android:text="Open 20 Hours"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/textView67"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView67"
-                app:layout_constraintTop_toBottomOf="@+id/textView67" />
-
-            <EditText
-                android:id="@+id/editTextNumber"
-                android:layout_width="0dp"
-                android:layout_height="56dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/email"
-                android:ems="10"
-                android:hint="Phone Number"
-                android:inputType="number"
-                android:paddingStart="15dp"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                app:layout_constraintEnd_toEndOf="@+id/textView68"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView68"
-                app:layout_constraintTop_toBottomOf="@+id/textView68" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:backgroundTint="#5030E5"
-                android:text="Continue"
-                app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
-                app:layout_constraintHorizontal_bias="0.48"
-                app:layout_constraintStart_toStartOf="@+id/editTextNumber"
-                app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textView69"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="By continuing, You accept our terms of \nservice and privacy policy."
+                android:layout_marginTop="16dp"
+                android:fontFamily="serif"
+                android:text="Price  30,000"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/button7"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/button7"
-                app:layout_constraintTop_toBottomOf="@+id/button7" />
+                app:layout_constraintEnd_toEndOf="@+id/textView68"
+                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintStart_toStartOf="@+id/textView68"
+                app:layout_constraintTop_toBottomOf="@+id/textView68" />
 
             <TextView
                 android:id="@+id/textView70"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="For an easy filling process"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
                 android:fontFamily="serif"
-                android:textStyle="bold"
+                android:text="Sports available"
                 android:textColor="@color/black"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/textView69"
-                app:layout_constraintHorizontal_bias="0.151"
-                app:layout_constraintStart_toStartOf="@+id/textView69"
-                app:layout_constraintTop_toBottomOf="@+id/textView69" />
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <ImageView
+                android:id="@+id/imageView53"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/img_6"
+                app:layout_constraintEnd_toEndOf="@+id/textView70"
+                app:layout_constraintHorizontal_bias="0.206"
+                app:layout_constraintStart_toStartOf="@+id/textView70"
+                app:layout_constraintTop_toBottomOf="@+id/textView70" />
 
             <TextView
                 android:id="@+id/textView71"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:text="Please be ready with the following."
+                android:text="Circket"
+                android:fontFamily="serif"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/textView70"
-                app:layout_constraintHorizontal_bias="0.291"
-                app:layout_constraintStart_toStartOf="@+id/textView70"
-                app:layout_constraintTop_toBottomOf="@+id/textView70" />
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/imageView53"
+                app:layout_constraintStart_toStartOf="@+id/imageView53"
+                app:layout_constraintTop_toBottomOf="@+id/imageView53" />
 
             <TextView
                 android:id="@+id/textView72"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="30dp"
                 android:fontFamily="serif"
-                android:text="1:- Ground permit copy"
+                android:text="Amenities"
                 android:textColor="@color/black"
+                android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/textView71"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView71"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView71" />
 
             <TextView
                 android:id="@+id/textView73"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="2:- Bank details"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="Parking"
                 android:fontFamily="serif"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/textView72"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView72"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView72" />
 
             <TextView
                 android:id="@+id/textView74"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="3:- GSTIN, if applicable"
+                android:layout_marginStart="32dp"
+                android:text="Changing room"
                 android:fontFamily="serif"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/textView73"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView73"
-                app:layout_constraintTop_toBottomOf="@+id/textView73" />
+                app:layout_constraintBottom_toBottomOf="@+id/textView73"
+                app:layout_constraintStart_toEndOf="@+id/textView73"
+                app:layout_constraintTop_toTopOf="@+id/textView73"
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/textView75"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="4:- PAN card copy"
+                android:layout_marginStart="32dp"
+                android:text="Toilets"
                 android:fontFamily="serif"
-                android:textStyle="bold"
                 android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="@+id/textView74"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/textView74"
-                app:layout_constraintTop_toBottomOf="@+id/textView74" />
+                app:layout_constraintBottom_toBottomOf="@+id/textView74"
+                app:layout_constraintStart_toEndOf="@+id/textView74"
+                app:layout_constraintTop_toTopOf="@+id/textView74"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:text="First Aid"
+                android:fontFamily="serif"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="@+id/textView75"
+                app:layout_constraintStart_toEndOf="@+id/textView75"
+                app:layout_constraintTop_toTopOf="@+id/textView75"
+                app:layout_constraintVertical_bias="0.0" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>

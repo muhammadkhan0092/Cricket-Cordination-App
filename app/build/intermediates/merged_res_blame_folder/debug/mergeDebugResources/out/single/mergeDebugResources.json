@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img6.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img6.jpg"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_5.png.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_5.png"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img6.jpg.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img6.jpg"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_paswadchanged.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\navigation\\intro_nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_store.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rv_cricket_item.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_share_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_share_24.xml"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_fpage.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_fpage.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_share_24.xml.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_share_24.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_blank.xml.flat",
@@ -124,16 +124,16 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\f_icon.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_4.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_4.png"
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_batbol.png.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\batbol.png"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s1.jpg.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s1.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_batbol.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\batbol.png"
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_4.png.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_4.png"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig9.xml.flat",
@@ -204,6 +204,10 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_settings_24.xml"
     },
     {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_reg_ground1.xml.flat",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reg_ground1.xml"
+    },
+    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig3.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig3.xml"
     },
@@ -256,10 +260,6 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s3.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_rz_cricket_item.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rz_cricket_item.xml"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_doorbell_24.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_doorbell_24.xml"
     },
@@ -274,10 +274,6 @@
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_store.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_store.xml"
-    },
-    {
-        "merged": "com.example.fyp.app-debug-5:/navigation_main_nav_graph.xml.flat",
-        "source": "com.example.fyp.app-main-7:/navigation/main_nav_graph.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img9.jpg.flat",
@@ -442,6 +438,10 @@
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_nikepage.xml.flat",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_nikepage.xml"
+    },
+    {
+        "merged": "com.example.fyp.app-debug-5:/layout_rv_cricket_item.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/rv_cricket_item.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_6.png.flat",

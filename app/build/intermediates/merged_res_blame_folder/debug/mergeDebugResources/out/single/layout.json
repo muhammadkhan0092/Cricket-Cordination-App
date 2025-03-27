@@ -1,23 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\rz_cricket_item.xml",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rz_cricket_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_store.xml",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_store.xml"
-    },
-    {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_regsponser.xml",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_regsponser.xml"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_reebokpage.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reebokpage.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\rz_brands_item.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rz_brands_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_regsponser.xml",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_regsponser.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_store.xml",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_store.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_gig3.xml",
@@ -36,12 +32,12 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_newpaswad.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_loginsponser.xml",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_loginsponser.xml"
-    },
-    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_gig10.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig10.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_loginsponser.xml",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_loginsponser.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_adidaspage.xml",
@@ -74,10 +70,6 @@
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_gig9.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig9.xml"
-    },
-    {
-        "merged": "com.example.fyp.app-mergeDebugResources-4:/layout/fragment_reg_ground.xml",
-        "source": "com.example.fyp.app-main-7:/layout/fragment_reg_ground.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_blank.xml",
@@ -140,6 +132,10 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_home.xml"
     },
     {
+        "merged": "com.example.fyp.app-mergeDebugResources-4:/layout/rv_cricket_item.xml",
+        "source": "com.example.fyp.app-main-7:/layout/rv_cricket_item.xml"
+    },
+    {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_gig11.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig11.xml"
     },
@@ -148,15 +144,15 @@
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig4.xml"
     },
     {
-        "merged": "com.example.fyp.app-mergeDebugResources-4:/layout/fragment_tournament.xml",
-        "source": "com.example.fyp.app-main-7:/layout/fragment_tournament.xml"
-    },
-    {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\rv_cricket_item.xml",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rv_cricket_item.xml"
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_reg_ground1.xml",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reg_ground1.xml"
     },
     {
         "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\fragment_splash_screen.xml",
         "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-mergeDebugResources-4:\\layout\\rv_cricket_item.xml",
+        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rv_cricket_item.xml"
     }
 ]
