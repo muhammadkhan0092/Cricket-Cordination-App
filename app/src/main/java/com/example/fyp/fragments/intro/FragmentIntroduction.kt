@@ -1,6 +1,7 @@
 package com.example.fyp.fragments.intro
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -37,12 +38,20 @@ class FragmentIntroduction : Fragment() {
 
     private fun onGoTosponser() {
         binding.btnsponser.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentRegsponser)
+            val bundle = Bundle().also {
+                it.putString("type","player")
+            }
+            Log.d("khan","sending sponsor from intro")
+            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentRegsponser,bundle)
         }
     }
     private fun onGetStartedListener() {
         binding.btnGetStarted.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentReg)
+            val bundle = Bundle().also {
+                it.putString("type","player")
+            }
+            Log.d("khan","sending player from intro")
+            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentReg,bundle)
         }
     }
 }

@@ -1,6 +1,6 @@
-com.example.fyp.test.app-core-1.6.1-0 C:\Users\rockz\.gradle\caches\transforms-4\06deb88bb2f801b7b29da44816a0a30c\transformed\core-1.6.1\res
-com.example.fyp.test.app-tracing-1.2.0-1 C:\Users\rockz\.gradle\caches\transforms-4\1d58658d3dcbef678a5e7138adf90940\transformed\tracing-1.2.0\res
-com.example.fyp.test.app-androidTest-2 C:\Users\rockz\AndroidStudioProjects\FYP project\app\build\generated\res\resValues\androidTest\debug
-com.example.fyp.test.app-mergeDebugAndroidTestResources-3 C:\Users\rockz\AndroidStudioProjects\FYP project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.fyp.test.app-mergeDebugAndroidTestResources-4 C:\Users\rockz\AndroidStudioProjects\FYP project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.fyp.test.app-debugAndroidTest-5 C:\Users\rockz\AndroidStudioProjects\FYP project\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.fyp.test.app-tracing-1.2.0-0 C:\Users\rockz\.gradle\caches\transforms-4\10dd71eb13e5d33e1d88bd801452f27e\transformed\tracing-1.2.0\res
+com.example.fyp.test.app-core-1.6.1-1 C:\Users\rockz\.gradle\caches\transforms-4\f36d8c010730d73287916c5f832ee3c2\transformed\core-1.6.1\res
+com.example.fyp.test.app-androidTest-2 C:\Users\rockz\AndroidStudioProjects\Cricket-Cordination-App\app\build\generated\res\resValues\androidTest\debug
+com.example.fyp.test.app-mergeDebugAndroidTestResources-3 C:\Users\rockz\AndroidStudioProjects\Cricket-Cordination-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.fyp.test.app-mergeDebugAndroidTestResources-4 C:\Users\rockz\AndroidStudioProjects\Cricket-Cordination-App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.fyp.test.app-debugAndroidTest-5 C:\Users\rockz\AndroidStudioProjects\Cricket-Cordination-App\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

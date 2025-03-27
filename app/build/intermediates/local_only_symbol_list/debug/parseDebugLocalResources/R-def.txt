@@ -26,6 +26,7 @@ drawable baseline_star_24
 drawable baseline_supervisor_account_24
 drawable baseline_support_agent_24
 drawable baseline_wallet_24
+drawable baseline_watch_later_24
 drawable batbol
 drawable batman
 drawable d4
@@ -81,6 +82,7 @@ id action_fragmentAdidasPage_to_fragmentGigPage8
 id action_fragmentAdidasPage_to_fragmentGigPage9
 id action_fragmentForgetPage3_to_fragmentLogin
 id action_fragmentForgetPage3_to_fragmentNewPasward
+id action_fragmentHome_to_fragmentPlayerProfileCheck
 id action_fragmentIntroduction_to_fragmentLogin
 id action_fragmentIntroduction_to_fragmentReg
 id action_fragmentIntroduction_to_fragmentRegsponser
@@ -129,9 +131,9 @@ id button3
 id button4
 id button5
 id button6
-id button7
 id button8
 id cardView
+id cardView01
 id cardView10
 id cardView11
 id cardView12
@@ -181,6 +183,7 @@ id fragmentLoginsponser
 id fragmentNewPasward
 id fragmentNikePage
 id fragmentPasswardChanged
+id fragmentPlayerProfileCheck
 id fragmentProfile2
 id fragmentProfileopen
 id fragmentPumaPage
@@ -232,6 +235,7 @@ id imageView25
 id imageView26
 id imageView27
 id imageView28
+id imageView29
 id imageView3
 id imageView30
 id imageView31
@@ -258,6 +262,7 @@ id imageView5
 id imageView50
 id imageView51
 id imageView52
+id imageView53
 id imageView6
 id imageView7
 id imageView8
@@ -267,8 +272,10 @@ id logout
 id main
 id main_nav_bar.xml
 id niike
+id progressBar
 id puma
 id recyclerView
+id recyclerView2
 id reebok
 id rs
 id rv
@@ -329,9 +336,12 @@ id textView58
 id textView59
 id textView6
 id textView60
+id textView61
 id textView62
+id textView63
 id textView64
 id textView65
+id textView66
 id textView67
 id textView68
 id textView69
@@ -344,7 +354,10 @@ id textView74
 id textView75
 id textView76
 id textView77
+id textView78
+id textView79
 id textView8
+id textView81
 id textView9
 id tvGoToLogin
 id tvGoToRegister
@@ -374,6 +387,7 @@ layout fragment_newpaswad
 layout fragment_nikepage
 layout fragment_paswadchanged
 layout fragment_profile
+layout fragment_profilecheck
 layout fragment_pumapage
 layout fragment_reebokpage
 layout fragment_reg

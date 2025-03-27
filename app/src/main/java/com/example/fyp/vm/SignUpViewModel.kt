@@ -3,6 +3,7 @@ package com.example.fyp.vm
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.fyp.data.User
+import com.example.fyp.utils.Resource
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -13,11 +14,11 @@ import kotlinx.coroutines.launch
 
 class SignUpViewModel( val firebaseAuth: FirebaseAuth,val firestore : FirebaseFirestore) : ViewModel() {
 
-    private val _createUser = MutableStateFlow<String>("")
-    val createUser : StateFlow<String> = _createUser.asStateFlow()
+    private val _createUser = MutableStateFlow<Resource<String>>(Resource.Unspecified())
+    val createUser : StateFlow<Resource<String>> = _createUser.asStateFlow()
 
-    private val _getUser = MutableStateFlow<User?>(null)
-    val getUser : StateFlow<User?> = _getUser.asStateFlow()
+    private val _getUser = MutableStateFlow<Resource<User>>(Resource.Unspecified())
+    val getUser : StateFlow<Resource<User>> =  _getUser.asStateFlow()
 
     fun createUserWithEmaiLAndPass(user: User){
         firebaseAuth.createUserWithEmailAndPassword(user.email,user.pass)
@@ -30,7 +31,7 @@ class SignUpViewModel( val firebaseAuth: FirebaseAuth,val firestore : FirebaseFi
             }
             .addOnFailureListener{
                 viewModelScope.launch {
-                    _createUser.emit("fail")
+                    _createUser.emit(Resource.Error(it.message.toString()))
                 }
             }
     }
@@ -40,11 +41,11 @@ class SignUpViewModel( val firebaseAuth: FirebaseAuth,val firestore : FirebaseFi
             .set(user)
             .addOnSuccessListener {
                 viewModelScope.launch {
-                    _createUser.emit("success")
+                    _createUser.emit(Resource.Success("SUCCESS"))
                 }
             }.addOnFailureListener {
                 viewModelScope.launch {
-                    _createUser.emit("fail")
+                    _createUser.emit(Resource.Error(it.message.toString()))
                 }
             }
     }
@@ -57,13 +58,13 @@ class SignUpViewModel( val firebaseAuth: FirebaseAuth,val firestore : FirebaseFi
                 val user = data.first()
                 if(user!=null){
                     viewModelScope.launch {
-                        _getUser.emit(user)
+                        _getUser.emit(Resource.Success(user))
                     }
                 }
             }
             .addOnFailureListener {
                 viewModelScope.launch {
-                    _getUser.emit(null)
+                    _getUser.emit(Resource.Error(it.message.toString()))
                 }
             }
     }
