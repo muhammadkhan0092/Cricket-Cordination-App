@@ -4,7 +4,6 @@ package com.example.fyp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,9 +19,6 @@ import java.lang.String;
 public final class FragmentRegGroundBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
-
-  @NonNull
-  public final Button button7;
 
   @NonNull
   public final ImageView imageView22;
@@ -72,7 +68,7 @@ public final class FragmentRegGroundBinding implements ViewBinding {
   @NonNull
   public final TextView textView81;
 
-  private FragmentRegGroundBinding(@NonNull ConstraintLayout rootView, @NonNull Button button7,
+  private FragmentRegGroundBinding(@NonNull ConstraintLayout rootView,
       @NonNull ImageView imageView22, @NonNull ImageView imageView29,
       @NonNull ImageView imageView53, @NonNull ImageView imageView7, @NonNull ConstraintLayout main,
       @NonNull TextView textView22, @NonNull TextView textView67, @NonNull TextView textView68,
@@ -80,7 +76,6 @@ public final class FragmentRegGroundBinding implements ViewBinding {
       @NonNull TextView textView72, @NonNull TextView textView73, @NonNull TextView textView74,
       @NonNull TextView textView75, @NonNull TextView textView81) {
     this.rootView = rootView;
-    this.button7 = button7;
     this.imageView22 = imageView22;
     this.imageView29 = imageView29;
     this.imageView53 = imageView53;
@@ -126,12 +121,6 @@ public final class FragmentRegGroundBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.button7;
-      Button button7 = ViewBindings.findChildViewById(rootView, id);
-      if (button7 == null) {
-        break missingId;
-      }
-
       id = R.id.imageView22;
       ImageView imageView22 = ViewBindings.findChildViewById(rootView, id);
       if (imageView22 == null) {
@@ -224,10 +213,9 @@ public final class FragmentRegGroundBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRegGroundBinding((ConstraintLayout) rootView, button7, imageView22,
-          imageView29, imageView53, imageView7, main, textView22, textView67, textView68,
-          textView69, textView70, textView71, textView72, textView73, textView74, textView75,
-          textView81);
+      return new FragmentRegGroundBinding((ConstraintLayout) rootView, imageView22, imageView29,
+          imageView53, imageView7, main, textView22, textView67, textView68, textView69, textView70,
+          textView71, textView72, textView73, textView74, textView75, textView81);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

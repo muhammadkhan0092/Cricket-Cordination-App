@@ -46,6 +46,9 @@
         <action
             android:id="@+id/action_fragmentReg_to_fragmentLogin2"
             app:destination="@id/fragmentLogin" />
+        <argument
+            android:name="type"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/fragmentSplashScreen"

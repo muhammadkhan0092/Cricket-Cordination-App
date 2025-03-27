@@ -1,5 +1,6 @@
 package com.example.fyp.fragments.main
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,6 +13,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fyp.R
+import com.example.fyp.activities.MainActivity
 import com.example.fyp.adapters.CricketAdapter
 import com.example.fyp.d
 import com.example.fyp.data.MainData
@@ -28,6 +30,7 @@ import kotlin.concurrent.timerTask
 class FragmentHome : Fragment() {
     private lateinit var cricketAdapter: CricketAdapter
     private lateinit var binding : FragmentHomeBinding
+    private var type = ""
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -41,15 +44,18 @@ class FragmentHome : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setupRv()
         setupData()
+         (activity as MainActivity).data.observe(viewLifecycleOwner){
+             type = it
+             Log.d("khan","received type in home as $it")
+         }
+
 
         cricketAdapter.onClick = {
             Toast.makeText(requireContext(), "${it.name}", Toast.LENGTH_SHORT).show()
         }
     }
 
-    private fun zaryab() {
-        Toast.makeText(requireContext(), "geeg", Toast.LENGTH_SHORT).show()
-    }
+
 
     private fun setupData() {
         val list = listOf(

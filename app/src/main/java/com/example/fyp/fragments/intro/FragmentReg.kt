@@ -2,6 +2,7 @@ package com.example.fyp.fragments.intro
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,9 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.example.fyp.R
+import com.example.fyp.activities.MainActivity
 import com.example.fyp.data.User
 import com.example.fyp.databinding.FragmentRegBinding
+import com.example.fyp.utils.Resource
 import com.example.fyp.vm.SignUpViewModel
 import com.example.fyp.vmf.SignUpFactory
 import com.google.firebase.auth.FirebaseAuth
@@ -22,6 +26,8 @@ import kotlinx.coroutines.launch
 
 class FragmentReg : Fragment() {
     private lateinit var binding : FragmentRegBinding
+    private var type : String = ""
+    private val navArgs by navArgs<FragmentRegArgs>()
     val viewModel by viewModels<SignUpViewModel> {
         val firestore = FirebaseFirestore.getInstance()
         val firebaseAuth = FirebaseAuth.getInstance()
@@ -38,29 +44,42 @@ class FragmentReg : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-         onRegistrationClicked()
+        onRegistrationClicked()
+        getData()
         onGoToLogin()
         onBackButton()
         obsevreUser()
-        asad()
     }
 
-    private fun asad() {
-        asd()
+    private fun getData() {
+        type = navArgs.type
+        Log.d("khan","got type in reg ${type}")
     }
 
-    private fun asd() {
-
-    }
 
     private fun obsevreUser() {
         lifecycleScope.launch {
             viewModel.createUser.collectLatest {
-                if(it =="success"){
-                    Toast.makeText(requireContext(), "succesfull registration", Toast.LENGTH_SHORT).show()
-                }
-                else if(it=="fail"){
-                    Toast.makeText(requireContext(), "Failed", Toast.LENGTH_SHORT).show()
+                when(it){
+                    is Resource.Error -> {
+                        binding.progressBar.visibility = View.INVISIBLE
+                        Toast.makeText(requireContext(), it.message, Toast.LENGTH_SHORT).show()
+                    }
+                    is Resource.Loading ->{
+                        binding.progressBar.visibility = View.VISIBLE
+                    }
+                    is Resource.Success -> {
+                        binding.progressBar.visibility = View.INVISIBLE
+                        Toast.makeText(requireContext(), "Registration Successfull", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(requireContext(),MainActivity::class.java)
+                        intent.putExtra("type",type)
+                        Log.d("khan","sending type from reg ${type}")
+                        startActivity(intent)
+                        requireActivity().finish()
+                    }
+                    is Resource.Unspecified -> {
+
+                    }
                 }
             }
         }

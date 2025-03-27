@@ -21,6 +21,9 @@ public final class RvCricketItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
+  public final CardView cardView01;
+
+  @NonNull
   public final ImageView cv;
 
   @NonNull
@@ -35,10 +38,11 @@ public final class RvCricketItemBinding implements ViewBinding {
   @NonNull
   public final TextView textView62;
 
-  private RvCricketItemBinding(@NonNull CardView rootView, @NonNull ImageView cv,
-      @NonNull ImageView imageView7, @NonNull TextView textView20, @NonNull TextView textView22,
-      @NonNull TextView textView62) {
+  private RvCricketItemBinding(@NonNull CardView rootView, @NonNull CardView cardView01,
+      @NonNull ImageView cv, @NonNull ImageView imageView7, @NonNull TextView textView20,
+      @NonNull TextView textView22, @NonNull TextView textView62) {
     this.rootView = rootView;
+    this.cardView01 = cardView01;
     this.cv = cv;
     this.imageView7 = imageView7;
     this.textView20 = textView20;
@@ -73,6 +77,8 @@ public final class RvCricketItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      CardView cardView01 = (CardView) rootView;
+
       id = R.id.cv;
       ImageView cv = ViewBindings.findChildViewById(rootView, id);
       if (cv == null) {
@@ -103,8 +109,8 @@ public final class RvCricketItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RvCricketItemBinding((CardView) rootView, cv, imageView7, textView20, textView22,
-          textView62);
+      return new RvCricketItemBinding((CardView) rootView, cardView01, cv, imageView7, textView20,
+          textView22, textView62);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
