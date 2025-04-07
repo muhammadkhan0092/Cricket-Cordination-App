@@ -32,7 +32,7 @@
             android:layout_marginEnd="20dp"
             android:fontFamily="sans-serif-condensed"
             android:textStyle="bold"
-            android:text="Hello! Register to get started"
+            android:text="Hello! Register to Sponsor"
             android:textColor="@color/black"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -75,43 +75,6 @@
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
         <EditText
-            android:id="@+id/editTextNumber"
-            android:layout_width="0dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/email"
-            android:ems="10"
-            android:hint="Phone Number"
-            android:inputType="number"
-            android:paddingStart="15dp"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
-
-        <EditText
-            android:id="@+id/editTextNumber2"
-
-            android:layout_width="0dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="20dp"
-            android:background="@drawable/email"
-            android:ems="10"
-            android:hint="CNIC Without Dash(__) "
-            android:inputType="number"
-            android:paddingStart="15dp"
-            android:textColor="@color/black"
-            android:textSize="15sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
-
-        <EditText
             android:id="@+id/editTextTextPassword"
             android:layout_width="0dp"
             android:layout_height="56dp"
@@ -120,25 +83,25 @@
             android:layout_marginEnd="20dp"
             android:background="@drawable/email"
             android:ems="10"
-            android:hint="Pasward"
+            android:hint="Password"
             android:inputType="textPassword"
             android:paddingStart="10dp"
             android:textColor="@color/black"
             android:textSize="15sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="0dp"
             android:layout_height="56dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:background="@drawable/email"
             android:ems="10"
-            android:hint=" Conform Pasward"
+            android:hint=" Conform Password"
             android:inputType="textPassword"
             android:paddingStart="10dp"
             android:textColor="@color/black"
@@ -152,8 +115,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#5030E5"
             android:gravity="center"
             android:text="Register"
@@ -163,7 +126,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText" />
+            app:layout_constraintTop_toBottomOf="@+id/textView85" />
 
         <TextView
             android:id="@+id/textView7"
@@ -239,5 +202,39 @@
             app:layout_constraintHorizontal_bias="0.748"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <EditText
+            android:id="@+id/textView84"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/email"
+            android:hint="Company Name"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <EditText
+            android:id="@+id/textView85"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/email"
+            android:hint="Designation"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView84" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

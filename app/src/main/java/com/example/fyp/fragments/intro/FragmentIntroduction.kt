@@ -23,6 +23,7 @@ class FragmentIntroduction : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        Log.d("khan","in introduction")
         onGetStartedListener()
         onGoToLogin()
         onGoTosponser()
@@ -39,10 +40,10 @@ class FragmentIntroduction : Fragment() {
     private fun onGoTosponser() {
         binding.btnsponser.setOnClickListener {
             val bundle = Bundle().also {
-                it.putString("type","player")
+                it.putString("type","sponsor")
             }
             Log.d("khan","sending sponsor from intro")
-            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentRegsponser,bundle)
+            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentReg,bundle)
         }
     }
     private fun onGetStartedListener() {

@@ -46,6 +46,7 @@ class FragmentHome : Fragment() {
         setupData()
          (activity as MainActivity).data.observe(viewLifecycleOwner){
              type = it
+             
              Log.d("khan","received type in home as $it")
          }
 

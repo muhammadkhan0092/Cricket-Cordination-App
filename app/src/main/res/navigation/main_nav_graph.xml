@@ -165,11 +165,6 @@
         android:name="com.example.fyp.fragments.intro.FragmentGigPage12"
         android:label="FragmentGigPage12" />
     <fragment
-        android:id="@+id/fragmentIntroduction2"
-        android:name="com.example.fyp.fragments.intro.FragmentIntroduction"
-        android:label="fragment_introduction"
-        tools:layout="@layout/fragment_introduction" />
-    <fragment
         android:id="@+id/fragmentRGround"
         android:name="com.example.fyp.fragments.intro.FragmentRGround"
         android:label="FragmentRGround" />
@@ -177,4 +172,9 @@
         android:id="@+id/fragmentPlayerProfileCheck"
         android:name="com.example.fyp.fragments.intro.FragmentPlayerProfileCheck"
         android:label="FragmentPlayerProfileCheck" />
+    <fragment
+        android:id="@+id/fragmentIntroduction2"
+        android:name="com.example.fyp.fragments.intro.FragmentIntroduction"
+        android:label="fragment_introduction"
+        tools:layout="@layout/fragment_introduction" />
 </navigation>

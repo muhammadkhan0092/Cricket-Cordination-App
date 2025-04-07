@@ -453,6 +453,15 @@
                             <option name="y" value="135" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragmentHome_to_fragmentPlayerProfileCheck">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
@@ -461,8 +470,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="150" />
-                            <option name="y" value="568" />
+                            <option name="x" value="-71" />
+                            <option name="y" value="519" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -543,11 +552,6 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_fragmentProfileopen_to_fragmentIntroduction2">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
                             <entry key="action_fragmentProfileopen_to_fragmentProfile2">
                               <value>
                                 <LayoutPositions />
