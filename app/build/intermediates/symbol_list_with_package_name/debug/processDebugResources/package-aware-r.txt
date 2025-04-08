@@ -3452,6 +3452,7 @@ id button3
 id button4
 id button5
 id button6
+id button7
 id button8
 id buttonPanel
 id cache_measures
@@ -3468,7 +3469,9 @@ id cardView15
 id cardView16
 id cardView17
 id cardView18
+id cardView19
 id cardView2
+id cardView20
 id cardView3
 id cardView4
 id cardView5
@@ -3714,6 +3717,9 @@ id imageView50
 id imageView51
 id imageView52
 id imageView53
+id imageView54
+id imageView55
+id imageView56
 id imageView6
 id imageView7
 id imageView8
@@ -4044,8 +4050,22 @@ id textView77
 id textView78
 id textView79
 id textView8
+id textView80
 id textView81
+id textView82
+id textView83
+id textView84
+id textView85
+id textView86
+id textView87
+id textView88
+id textView89
 id textView9
+id textView90
+id textView91
+id textView92
+id textView93
+id textView94
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -4240,7 +4260,6 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fingerprint_dialog_layout
 layout fragment_adidaspage
-layout fragment_blank
 layout fragment_fpage
 layout fragment_gig
 layout fragment_gig10
@@ -4270,6 +4289,8 @@ layout fragment_reg_ground
 layout fragment_reg_ground1
 layout fragment_regsponser
 layout fragment_splash_screen
+layout fragment_sponsor_profile
+layout fragment_sponsor_profileedit
 layout fragment_store
 layout fragment_tournament
 layout ime_base_split_test_activity

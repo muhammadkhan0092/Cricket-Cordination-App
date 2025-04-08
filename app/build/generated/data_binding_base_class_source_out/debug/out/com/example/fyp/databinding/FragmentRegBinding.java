@@ -51,6 +51,9 @@ public final class FragmentRegBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
+  public final ImageView imageView54;
+
+  @NonNull
   public final ProgressBar progressBar;
 
   @NonNull
@@ -66,14 +69,18 @@ public final class FragmentRegBinding implements ViewBinding {
   public final TextView textView8;
 
   @NonNull
+  public final TextView textView86;
+
+  @NonNull
   public final TextView tvGoToLogin;
 
   private FragmentRegBinding(@NonNull ScrollView rootView, @NonNull ImageView btnBack,
       @NonNull Button btnLogin, @NonNull EditText editText, @NonNull EditText editTextNumber,
       @NonNull EditText editTextNumber2, @NonNull EditText editTextTextEmailAddress2,
       @NonNull EditText editTextTextPassword, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView5, @NonNull ProgressBar progressBar, @NonNull EditText textView10,
-      @NonNull TextView textView5, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull ImageView imageView5, @NonNull ImageView imageView54,
+      @NonNull ProgressBar progressBar, @NonNull EditText textView10, @NonNull TextView textView5,
+      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView textView86,
       @NonNull TextView tvGoToLogin) {
     this.rootView = rootView;
     this.btnBack = btnBack;
@@ -85,11 +92,13 @@ public final class FragmentRegBinding implements ViewBinding {
     this.editTextTextPassword = editTextTextPassword;
     this.imageView3 = imageView3;
     this.imageView5 = imageView5;
+    this.imageView54 = imageView54;
     this.progressBar = progressBar;
     this.textView10 = textView10;
     this.textView5 = textView5;
     this.textView7 = textView7;
     this.textView8 = textView8;
+    this.textView86 = textView86;
     this.tvGoToLogin = tvGoToLogin;
   }
 
@@ -174,6 +183,12 @@ public final class FragmentRegBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView54;
+      ImageView imageView54 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView54 == null) {
+        break missingId;
+      }
+
       id = R.id.progressBar;
       ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
       if (progressBar == null) {
@@ -204,6 +219,12 @@ public final class FragmentRegBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView86;
+      TextView textView86 = ViewBindings.findChildViewById(rootView, id);
+      if (textView86 == null) {
+        break missingId;
+      }
+
       id = R.id.tvGoToLogin;
       TextView tvGoToLogin = ViewBindings.findChildViewById(rootView, id);
       if (tvGoToLogin == null) {
@@ -212,8 +233,8 @@ public final class FragmentRegBinding implements ViewBinding {
 
       return new FragmentRegBinding((ScrollView) rootView, btnBack, btnLogin, editText,
           editTextNumber, editTextNumber2, editTextTextEmailAddress2, editTextTextPassword,
-          imageView3, imageView5, progressBar, textView10, textView5, textView7, textView8,
-          tvGoToLogin);
+          imageView3, imageView5, imageView54, progressBar, textView10, textView5, textView7,
+          textView8, textView86, tvGoToLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

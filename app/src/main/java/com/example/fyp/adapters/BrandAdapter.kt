@@ -44,7 +44,6 @@ class BrandAdapter : RecyclerView.Adapter<BrandAdapter.CricketViewHolder>(){
             textView14.text = item.name
             textView20.text = item.Groundname
             textView21.text = item.price
-            textView22.text = item.rating
         }
         holder.itemView.setOnClickListener {
             onClick?.invoke(item)

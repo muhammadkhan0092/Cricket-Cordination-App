@@ -60,13 +60,13 @@ class FragmentHome : Fragment() {
 
     private fun setupData() {
         val list = listOf(
-            MainData(age = 25, image =R.drawable.babar, name = "Babar Azam", rating = "4.5" , category = "Batsmen"),
-            MainData(age = 26, image =R.drawable.babar, name = "Zaryab Ali Haider", rating = "5.0" , category = "Bowler"),
-            MainData(age = 27, image =R.drawable.babar, name = "Muhammad Khan", rating = "4.1" , category = "Batsmen"),
-            MainData(age = 28, image =R.drawable.babar, name = "Hammad ALi", rating = "4.0" , category = "Batsmen"),
-            MainData(age = 29, image =R.drawable.babar, name = "Muhammad Hamza", rating = "4.3" , category = "Bowler"),
-            MainData(age = 22, image =R.drawable.babar, name = "Moeed Kayani", rating = "4.8" , category = "Batsmen"),
-            MainData(age = 23, image =R.drawable.babar, name = "Hassan Ali", rating = "4.9" , category = "Bowler"),
+            MainData(age = 25, image =R.drawable.babar, name = "Babar Azam", category = "Batsmen"),
+            MainData(age = 26, image =R.drawable.babar, name = "Zaryab Ali Haider", category = "Bowler"),
+            MainData(age = 27, image =R.drawable.babar, name = "Muhammad Khan", category = "Batsmen"),
+            MainData(age = 28, image =R.drawable.babar, name = "Hammad ALi", category = "Batsmen"),
+            MainData(age = 29, image =R.drawable.babar, name = "Muhammad Hamza", category = "Bowler"),
+            MainData(age = 22, image =R.drawable.babar, name = "Moeed Kayani", category = "Batsmen"),
+            MainData(age = 23, image =R.drawable.babar, name = "Hassan Ali", category = "Bowler"),
 
         )
         cricketAdapter.differ.submitList(list)

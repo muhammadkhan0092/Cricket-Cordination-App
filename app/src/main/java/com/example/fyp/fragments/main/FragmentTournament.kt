@@ -57,13 +57,13 @@ class FragmentTournament : Fragment() {
 
     private fun setupData() {
     val list = listOf(
-           MainData2(1,R.drawable.img11,"2.5 km away","Crystal Park Ground","20,000 Pkr","2.0" ),
-         MainData2(2,R.drawable.img_5,"4 km away","Golden Turf Stadium","30,000 Pkr","3.5"),
-         MainData2(3,R.drawable.img6,"3.5 km away","Summit View Ground","40,000 Pkr","4.0"),
-         MainData2(4,R.drawable.img7,"1.5 km away","Lakeside Ground","45,000 Pkr","5.0"),
-       MainData2(5,R.drawable.img8,"1 km away","Bayview Ground","35,000 Pkr","4.5"),
-       MainData2(6,R.drawable.img9,"2 km away","Iqbal Ground","25,000 Pkr","3.0"),
-        MainData2(7,R.drawable.img10,"3 km away","Bolan Ground","10,000 Pkr","1.5"),
+           MainData2(1,R.drawable.img11,"2.5 km away","Crystal Park Ground","20,000 Pkr"),
+         MainData2(2,R.drawable.img_5,"4 km away","Golden Turf Stadium","30,000 Pkr"),
+         MainData2(3,R.drawable.img6,"3.5 km away","Summit View Ground","40,000 Pkr"),
+         MainData2(4,R.drawable.img7,"1.5 km away","Lakeside Ground","45,000 Pkr"),
+       MainData2(5,R.drawable.img8,"1 km away","Bayview Ground","35,000 Pkr"),
+       MainData2(6,R.drawable.img9,"2 km away","Iqbal Ground","25,000 Pkr"),
+        MainData2(7,R.drawable.img10,"3 km away","Bolan Ground","10,000 Pkr"),
       )
        BrandAdapter.differ.submitList(list.toMutableList())
   }

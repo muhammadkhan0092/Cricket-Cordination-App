@@ -4,7 +4,7 @@
             "outputFile": "com.example.fyp.app-mergeDebugResources-3:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JK\\.gradle\\caches\\transforms-4\\451341f06c0c107a373ad6337b646a1b\\transformed\\play-services-auth-21.1.1\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\JK\\.gradle\\caches\\8.11.1\\transforms\\6536e6cf43b8d5eeb7927161a53b4adf\\transformed\\play-services-auth-21.1.1\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JK\\.gradle\\caches\\transforms-4\\54a76f638ede90fd0caa8e1da29d05bc\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\JK\\.gradle\\caches\\8.11.1\\transforms\\92040d16e634ca8cc1c1d451aa8d1105\\transformed\\appcompat-1.7.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

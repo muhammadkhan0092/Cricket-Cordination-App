@@ -1,510 +1,510 @@
 [
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img6.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img6.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_logout_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_logout_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_5.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_5.png"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_tournament.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_tournament.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_paswadchanged.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_paswadchanged.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_batman.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/batman.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_tour.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_tour.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img11.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img11.jpg"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.fyp.app-debug-5:/drawable_pict.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/pict.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig4.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig4.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_6.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_6.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_babar.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\babar.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_language_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_language_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_search_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_profile.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_b3.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\b3.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_p2.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/p2.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.fyp.app-debug-5:/navigation_intro_nav_graph.xml.flat",
+        "source": "com.example.fyp.app-main-7:/navigation/intro_nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_d5.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\d5.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_imagew.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/imagew.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_imaagg.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\imaagg.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_s2.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/s2.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_activity_intro.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\activity_intro.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig7.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig7.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_home.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig8.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig8.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_wallet_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_wallet_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s6.jpeg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s6.jpeg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_s1.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/s1.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img.png"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_introduction.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_introduction.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_imagee.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\imagee.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_imgggg.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/imgggg.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_paswadchanged.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_paswadchanged.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_store.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_store.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_profilefolwers.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/profilefolwers.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\navigation_intro_nav_graph.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\navigation\\intro_nav_graph.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_watch_later_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_watch_later_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_watch_later_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_watch_later_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_rz_brands_item.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/rz_brands_item.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.fyp.app-debug-5:/menu_main_menu.xml.flat",
+        "source": "com.example.fyp.app-main-7:/menu/main_menu.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\xml\\backup_rules.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_search_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig10.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig10.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_picture.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/picture.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_tournament.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_tournament.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_5.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_5.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_rv_cricket_item.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rv_cricket_item.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_activity_main.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_share_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_share_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img10.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img10.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_fpage.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_fpage.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_profilecheck.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_profilecheck.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_blank.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_blank.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_activity_intro.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/activity_intro.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_f_icon.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\f_icon.png"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig5.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig5.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_4.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_4.png"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_reebokpage.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_reebokpage.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s1.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s1.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_favorite_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_batbol.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\batbol.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_s4.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/s4.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig9.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig9.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_doorbell_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_doorbell_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_email.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\email.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img9.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img9.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_kits.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\kits.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_babar.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/babar.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_logout_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_logout_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_fball.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/fball.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_home.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_picture.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\picture.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_support_agent_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_support_agent_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_regsponser.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_regsponser.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_batbol.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/batbol.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig2.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig2.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_home.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_reg_ground.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reg_ground.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_language_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_language_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_openprofile.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/openprofile.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img7.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img7.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_3.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_3.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig11.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig11.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_supervisor_account_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_supervisor_account_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_imagg.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/imagg.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_shirt1.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\shirt1.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_s6.jpeg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/s6.jpeg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_settings_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_settings_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_splash_screen.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_reg_ground1.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reg_ground1.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_reg_ground1.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_reg_ground1.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig3.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig3.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_p1.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/p1.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_2.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_2.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_p4.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/p4.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\navigation_main_nav_graph.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\navigation\\main_nav_graph.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_sponsor_profileedit.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_sponsor_profileedit.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig6.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig6.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_pumapage.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_pumapage.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_adidaspage.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_adidaspage.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_searchbar.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/searchbar.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_profile.xml"
+        "merged": "com.example.fyp.app-debug-5:/color_main_selection.xml.flat",
+        "source": "com.example.fyp.app-main-7:/color/main_selection.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_arrow_back_ios_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_arrow_back_ios_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_arrow_back_ios_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_login.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_login.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_store.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_store.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_p3.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\p3.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_immgg.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/immgg.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_imgggg.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\imgggg.png"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.fyp.app-debug-5:/drawable_edgeradius.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/edgeradius.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig12.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig12.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img7.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img7.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s3.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s3.jpg"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_loginsponser.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_loginsponser.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_doorbell_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_doorbell_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_2.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_2.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_1.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_1.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_d4.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/d4.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_imagg.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\imagg.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_imagee.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/imagee.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_store.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_store.xml"
+        "merged": "com.example.fyp.app-debug-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.fyp.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.fyp.app-debug-5:/drawable_shirt1.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/shirt1.jpg"
+    },
+    {
+        "merged": "com.example.fyp.app-debug-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-mdpi/ic_launcher.webp"
     },
     {
         "merged": "com.example.fyp.app-debug-5:/navigation_main_nav_graph.xml.flat",
         "source": "com.example.fyp.app-main-7:/navigation/main_nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img9.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img9.jpg"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_searchbar.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\searchbar.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_person.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_favorite_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_settings_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_settings_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig7.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig7.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_profilefolwers.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\profilefolwers.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_immgg.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\immgg.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_rs_brands_item.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/rs_brands_item.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_loginsponser.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_loginsponser.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img6.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img6.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_batman.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\batman.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_add_circle_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_p2.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\p2.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_d5.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/d5.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig8.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig8.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_email.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/email.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s4.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s4.jpg"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_fpage.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_fpage.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_pict.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\pict.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_ic_tour.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/ic_tour.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_arrow_forward_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_arrow_forward_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_nikepage.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_nikepage.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_home.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_home.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig4.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig4.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_shoes.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\shoes.png"
+        "merged": "com.example.fyp.app-debug-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.fyp.app-main-7:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_rz_brands_item.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rz_brands_item.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_edgeradius.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\edgeradius.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig10.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig10.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img8.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img8.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_imaagg.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/imaagg.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_pumapage.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_pumapage.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_people_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_people_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_reg.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_reg.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_support_agent_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_support_agent_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_4.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_4.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_d4.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\d4.jpg"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig12.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig12.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_splash_screen.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_splash_screen.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_share_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_share_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.fyp.app-debug-5:/drawable_p3.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/p3.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\activity_main.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig9.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig9.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_p1.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\p1.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_wallet_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_wallet_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_add_circle_outline_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_add_circle_outline_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_supervisor_account_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_supervisor_account_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig5.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig5.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_reg_ground.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_reg_ground.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig11.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig11.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_b3.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/b3.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_s2.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\s2.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_newpaswad.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_newpaswad.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_store.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_store.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img_1.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img_1.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_3.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_3.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_f_icon.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/f_icon.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_reebokpage.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reebokpage.xml"
+        "merged": "com.example.fyp.app-debug-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.fyp.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_gig2.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_gig2.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_arrow_forward_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_arrow_forward_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\menu_main_menu.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\menu\\main_menu.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_regsponser.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_regsponser.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_rv_cricket_item.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/rv_cricket_item.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_reg.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_reg.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_profilecheck.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_profilecheck.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_format_list_bulleted_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_format_list_bulleted_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_rs_brands_item.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\rs_brands_item.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_login.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_nikepage.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_nikepage.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_shoes.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/shoes.png"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img_6.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img_6.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img8.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img8.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_img10.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\img10.jpg"
+        "merged": "com.example.fyp.app-debug-5:/drawable_img11.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/img11.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_star_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_star_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_newpaswad.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_newpaswad.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_imagew.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\imagew.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_star_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_star_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_openprofile.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\openprofile.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_fball.png.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\fball.png"
+        "merged": "com.example.fyp.app-debug-5:/drawable_s3.jpg.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/s3.jpg"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig3.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig3.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\layout_fragment_introduction.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\layout\\fragment_introduction.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_gig6.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_gig6.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_person_24.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_adidaspage.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_adidaspage.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_ic_person.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\ic_person.xml"
+        "merged": "com.example.fyp.app-debug-5:/layout_fragment_sponsor_profile.xml.flat",
+        "source": "com.example.fyp.app-main-7:/layout/fragment_sponsor_profile.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.fyp.app-debug-5:/drawable_baseline_people_24.xml.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/baseline_people_24.xml"
     },
     {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_p4.jpg.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\p4.jpg"
-    },
-    {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\drawable_baseline_format_list_bulleted_24.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\drawable\\baseline_format_list_bulleted_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-debug-5:\\color_main_selection.xml.flat",
-        "source": "C:\\Users\\JK\\.gradle\\daemon\\8.7\\com.example.fyp.app-main-7:\\color\\main_selection.xml"
+        "merged": "com.example.fyp.app-debug-5:/drawable_kits.png.flat",
+        "source": "com.example.fyp.app-main-7:/drawable/kits.png"
     }
 ]

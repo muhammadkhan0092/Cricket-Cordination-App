@@ -82,13 +82,13 @@ class FragmentStore : Fragment() {
 
     private fun setupData() {
         val list = listOf(
-            MainData3(image = R.drawable.shoes, name = "CoverDrive X shoes", Price = "2500 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.s3, name = "Circket Soft Shoes", Price = "4000 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.s2, name = "BatGrip Ultra Shirt", Price = "2500 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.s1, name = "Sixer Sprint Shoes", Price = "2500 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.d4, name = "SpinWizard  Shirt", Price = "5000 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.d5, name = "Yorker  Shirt", Price = "3500 Rps", rating = "4.5"),
-            MainData3(image = R.drawable.s1, name = "BladeRunner  Shoes", Price = "3000 Rps", rating = "4.5"),
+            MainData3(image = R.drawable.shoes, name = "CoverDrive X shoes", Price = "2500 Rps"),
+            MainData3(image = R.drawable.s3, name = "Circket Soft Shoes", Price = "4000 Rps"),
+            MainData3(image = R.drawable.s2, name = "BatGrip Ultra Shirt", Price = "2500 Rps"),
+            MainData3(image = R.drawable.s1, name = "Sixer Sprint Shoes", Price = "2500 Rps"),
+            MainData3(image = R.drawable.d4, name = "SpinWizard  Shirt", Price = "5000 Rps"),
+            MainData3(image = R.drawable.d5, name = "Yorker  Shirt", Price = "3500 Rps"),
+            MainData3(image = R.drawable.s1, name = "BladeRunner  Shoes", Price = "3000 Rps"),
         )
         StoreAdapter.differ.submitList(list)
     }

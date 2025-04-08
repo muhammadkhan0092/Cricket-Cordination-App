@@ -45,7 +45,6 @@ class StoreAdapter : RecyclerView.Adapter<StoreAdapter.CricketViewHolder>(){
             cv.setImageResource(item.image)
             textView20.text = item.name
             textView21.text = item.Price
-            textView22.text = item.rating
         }
         holder.itemView.setOnClickListener {
             onClick?.invoke(item)

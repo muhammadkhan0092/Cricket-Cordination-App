@@ -26,6 +26,9 @@ public final class FragmentProfilecheckBinding implements ViewBinding {
   public final ImageView btnBack;
 
   @NonNull
+  public final CardView cardView19;
+
+  @NonNull
   public final CardView cardView9;
 
   @NonNull
@@ -58,14 +61,39 @@ public final class FragmentProfilecheckBinding implements ViewBinding {
   @NonNull
   public final TextView textView79;
 
+  @NonNull
+  public final TextView textView80;
+
+  @NonNull
+  public final TextView textView82;
+
+  @NonNull
+  public final TextView textView83;
+
+  @NonNull
+  public final TextView textView88;
+
+  @NonNull
+  public final TextView textView89;
+
+  @NonNull
+  public final TextView textView90;
+
+  @NonNull
+  public final TextView textView91;
+
   private FragmentProfilecheckBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ImageView btnBack, @NonNull CardView cardView9, @NonNull ImageView imageView22,
-      @NonNull ImageView imageView26, @NonNull ConstraintLayout main,
-      @NonNull RecyclerView recyclerView2, @NonNull TextView textView23,
-      @NonNull TextView textView61, @NonNull TextView textView63, @NonNull TextView textView66,
-      @NonNull TextView textView78, @NonNull TextView textView79) {
+      @NonNull ImageView btnBack, @NonNull CardView cardView19, @NonNull CardView cardView9,
+      @NonNull ImageView imageView22, @NonNull ImageView imageView26,
+      @NonNull ConstraintLayout main, @NonNull RecyclerView recyclerView2,
+      @NonNull TextView textView23, @NonNull TextView textView61, @NonNull TextView textView63,
+      @NonNull TextView textView66, @NonNull TextView textView78, @NonNull TextView textView79,
+      @NonNull TextView textView80, @NonNull TextView textView82, @NonNull TextView textView83,
+      @NonNull TextView textView88, @NonNull TextView textView89, @NonNull TextView textView90,
+      @NonNull TextView textView91) {
     this.rootView = rootView;
     this.btnBack = btnBack;
+    this.cardView19 = cardView19;
     this.cardView9 = cardView9;
     this.imageView22 = imageView22;
     this.imageView26 = imageView26;
@@ -77,6 +105,13 @@ public final class FragmentProfilecheckBinding implements ViewBinding {
     this.textView66 = textView66;
     this.textView78 = textView78;
     this.textView79 = textView79;
+    this.textView80 = textView80;
+    this.textView82 = textView82;
+    this.textView83 = textView83;
+    this.textView88 = textView88;
+    this.textView89 = textView89;
+    this.textView90 = textView90;
+    this.textView91 = textView91;
   }
 
   @Override
@@ -109,6 +144,12 @@ public final class FragmentProfilecheckBinding implements ViewBinding {
       id = R.id.btnBack;
       ImageView btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView19;
+      CardView cardView19 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView19 == null) {
         break missingId;
       }
 
@@ -174,9 +215,52 @@ public final class FragmentProfilecheckBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentProfilecheckBinding((ConstraintLayout) rootView, btnBack, cardView9,
-          imageView22, imageView26, main, recyclerView2, textView23, textView61, textView63,
-          textView66, textView78, textView79);
+      id = R.id.textView80;
+      TextView textView80 = ViewBindings.findChildViewById(rootView, id);
+      if (textView80 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView82;
+      TextView textView82 = ViewBindings.findChildViewById(rootView, id);
+      if (textView82 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView83;
+      TextView textView83 = ViewBindings.findChildViewById(rootView, id);
+      if (textView83 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView88;
+      TextView textView88 = ViewBindings.findChildViewById(rootView, id);
+      if (textView88 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView89;
+      TextView textView89 = ViewBindings.findChildViewById(rootView, id);
+      if (textView89 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView90;
+      TextView textView90 = ViewBindings.findChildViewById(rootView, id);
+      if (textView90 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView91;
+      TextView textView91 = ViewBindings.findChildViewById(rootView, id);
+      if (textView91 == null) {
+        break missingId;
+      }
+
+      return new FragmentProfilecheckBinding((ConstraintLayout) rootView, btnBack, cardView19,
+          cardView9, imageView22, imageView26, main, recyclerView2, textView23, textView61,
+          textView63, textView66, textView78, textView79, textView80, textView82, textView83,
+          textView88, textView89, textView90, textView91);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

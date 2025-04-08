@@ -32,12 +32,6 @@ public final class FragmentRegsponserBinding implements ViewBinding {
   public final EditText editText;
 
   @NonNull
-  public final EditText editTextNumber;
-
-  @NonNull
-  public final EditText editTextNumber2;
-
-  @NonNull
   public final EditText editTextTextEmailAddress2;
 
   @NonNull
@@ -62,20 +56,24 @@ public final class FragmentRegsponserBinding implements ViewBinding {
   public final TextView textView8;
 
   @NonNull
+  public final EditText textView84;
+
+  @NonNull
+  public final EditText textView85;
+
+  @NonNull
   public final TextView tvGoToLogin;
 
   private FragmentRegsponserBinding(@NonNull ScrollView rootView, @NonNull ImageView btnBack,
-      @NonNull Button btnLogin, @NonNull EditText editText, @NonNull EditText editTextNumber,
-      @NonNull EditText editTextNumber2, @NonNull EditText editTextTextEmailAddress2,
-      @NonNull EditText editTextTextPassword, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView5, @NonNull EditText textView10, @NonNull TextView textView5,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView tvGoToLogin) {
+      @NonNull Button btnLogin, @NonNull EditText editText,
+      @NonNull EditText editTextTextEmailAddress2, @NonNull EditText editTextTextPassword,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView5, @NonNull EditText textView10,
+      @NonNull TextView textView5, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull EditText textView84, @NonNull EditText textView85, @NonNull TextView tvGoToLogin) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnLogin = btnLogin;
     this.editText = editText;
-    this.editTextNumber = editTextNumber;
-    this.editTextNumber2 = editTextNumber2;
     this.editTextTextEmailAddress2 = editTextTextEmailAddress2;
     this.editTextTextPassword = editTextTextPassword;
     this.imageView3 = imageView3;
@@ -84,6 +82,8 @@ public final class FragmentRegsponserBinding implements ViewBinding {
     this.textView5 = textView5;
     this.textView7 = textView7;
     this.textView8 = textView8;
+    this.textView84 = textView84;
+    this.textView85 = textView85;
     this.tvGoToLogin = tvGoToLogin;
   }
 
@@ -129,18 +129,6 @@ public final class FragmentRegsponserBinding implements ViewBinding {
       id = R.id.editText;
       EditText editText = ViewBindings.findChildViewById(rootView, id);
       if (editText == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextNumber;
-      EditText editTextNumber = ViewBindings.findChildViewById(rootView, id);
-      if (editTextNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.editTextNumber2;
-      EditText editTextNumber2 = ViewBindings.findChildViewById(rootView, id);
-      if (editTextNumber2 == null) {
         break missingId;
       }
 
@@ -192,6 +180,18 @@ public final class FragmentRegsponserBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView84;
+      EditText textView84 = ViewBindings.findChildViewById(rootView, id);
+      if (textView84 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView85;
+      EditText textView85 = ViewBindings.findChildViewById(rootView, id);
+      if (textView85 == null) {
+        break missingId;
+      }
+
       id = R.id.tvGoToLogin;
       TextView tvGoToLogin = ViewBindings.findChildViewById(rootView, id);
       if (tvGoToLogin == null) {
@@ -199,8 +199,8 @@ public final class FragmentRegsponserBinding implements ViewBinding {
       }
 
       return new FragmentRegsponserBinding((ScrollView) rootView, btnBack, btnLogin, editText,
-          editTextNumber, editTextNumber2, editTextTextEmailAddress2, editTextTextPassword,
-          imageView3, imageView5, textView10, textView5, textView7, textView8, tvGoToLogin);
+          editTextTextEmailAddress2, editTextTextPassword, imageView3, imageView5, textView10,
+          textView5, textView7, textView8, textView84, textView85, tvGoToLogin);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

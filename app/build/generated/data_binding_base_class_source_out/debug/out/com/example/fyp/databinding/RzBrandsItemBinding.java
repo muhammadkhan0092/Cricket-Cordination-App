@@ -24,26 +24,17 @@ public final class RzBrandsItemBinding implements ViewBinding {
   public final ImageView cv;
 
   @NonNull
-  public final ImageView imageView7;
-
-  @NonNull
   public final TextView textView20;
 
   @NonNull
   public final TextView textView21;
 
-  @NonNull
-  public final TextView textView22;
-
   private RzBrandsItemBinding(@NonNull CardView rootView, @NonNull ImageView cv,
-      @NonNull ImageView imageView7, @NonNull TextView textView20, @NonNull TextView textView21,
-      @NonNull TextView textView22) {
+      @NonNull TextView textView20, @NonNull TextView textView21) {
     this.rootView = rootView;
     this.cv = cv;
-    this.imageView7 = imageView7;
     this.textView20 = textView20;
     this.textView21 = textView21;
-    this.textView22 = textView22;
   }
 
   @Override
@@ -79,12 +70,6 @@ public final class RzBrandsItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView7;
-      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
-        break missingId;
-      }
-
       id = R.id.textView20;
       TextView textView20 = ViewBindings.findChildViewById(rootView, id);
       if (textView20 == null) {
@@ -97,14 +82,7 @@ public final class RzBrandsItemBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textView22;
-      TextView textView22 = ViewBindings.findChildViewById(rootView, id);
-      if (textView22 == null) {
-        break missingId;
-      }
-
-      return new RzBrandsItemBinding((CardView) rootView, cv, imageView7, textView20, textView21,
-          textView22);
+      return new RzBrandsItemBinding((CardView) rootView, cv, textView20, textView21);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -43,7 +43,6 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
         holder.binding.apply {
             cv.setImageResource(item.image)
             textView20.text = item.name
-            textView22.text = item.rating
             textView62.text = item.category
         }
         holder.itemView.setOnClickListener {
