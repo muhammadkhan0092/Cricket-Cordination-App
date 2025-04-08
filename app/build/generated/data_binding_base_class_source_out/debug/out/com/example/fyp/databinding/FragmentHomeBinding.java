@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -51,6 +52,9 @@ public final class FragmentHomeBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   @NonNull
+  public final ProgressBar progressBar4;
+
+  @NonNull
   public final RecyclerView rv;
 
   @NonNull
@@ -86,11 +90,11 @@ public final class FragmentHomeBinding implements ViewBinding {
   private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView11,
       @NonNull CardView cardView13, @NonNull CardView cardView14, @NonNull EditText editText3,
       @NonNull ImageView imageView24, @NonNull ImageView imageView28, @NonNull ImageView imageView6,
-      @NonNull ImageView imageView8, @NonNull ConstraintLayout main, @NonNull RecyclerView rv,
-      @NonNull TextView textView13, @NonNull TextView textView31, @NonNull TextView textView32,
-      @NonNull TextView textView33, @NonNull TextView textView34, @NonNull TextView textView35,
-      @NonNull TextView textView36, @NonNull TextView textView6, @NonNull TextView textView64,
-      @NonNull TextView textView65) {
+      @NonNull ImageView imageView8, @NonNull ConstraintLayout main,
+      @NonNull ProgressBar progressBar4, @NonNull RecyclerView rv, @NonNull TextView textView13,
+      @NonNull TextView textView31, @NonNull TextView textView32, @NonNull TextView textView33,
+      @NonNull TextView textView34, @NonNull TextView textView35, @NonNull TextView textView36,
+      @NonNull TextView textView6, @NonNull TextView textView64, @NonNull TextView textView65) {
     this.rootView = rootView;
     this.cardView11 = cardView11;
     this.cardView13 = cardView13;
@@ -101,6 +105,7 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.imageView6 = imageView6;
     this.imageView8 = imageView8;
     this.main = main;
+    this.progressBar4 = progressBar4;
     this.rv = rv;
     this.textView13 = textView13;
     this.textView31 = textView31;
@@ -191,6 +196,12 @@ public final class FragmentHomeBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
+      id = R.id.progressBar4;
+      ProgressBar progressBar4 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar4 == null) {
+        break missingId;
+      }
+
       id = R.id.rv;
       RecyclerView rv = ViewBindings.findChildViewById(rootView, id);
       if (rv == null) {
@@ -258,9 +269,9 @@ public final class FragmentHomeBinding implements ViewBinding {
       }
 
       return new FragmentHomeBinding((ConstraintLayout) rootView, cardView11, cardView13,
-          cardView14, editText3, imageView24, imageView28, imageView6, imageView8, main, rv,
-          textView13, textView31, textView32, textView33, textView34, textView35, textView36,
-          textView6, textView64, textView65);
+          cardView14, editText3, imageView24, imageView28, imageView6, imageView8, main,
+          progressBar4, rv, textView13, textView31, textView32, textView33, textView34, textView35,
+          textView36, textView6, textView64, textView65);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

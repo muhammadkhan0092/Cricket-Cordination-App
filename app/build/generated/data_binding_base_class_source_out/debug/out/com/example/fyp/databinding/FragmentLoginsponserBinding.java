@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -78,6 +79,9 @@ public final class FragmentLoginsponserBinding implements ViewBinding {
   public final ConstraintLayout main;
 
   @NonNull
+  public final ProgressBar progressBar3;
+
+  @NonNull
   public final TextView textView5;
 
   @NonNull
@@ -96,8 +100,9 @@ public final class FragmentLoginsponserBinding implements ViewBinding {
       @NonNull Guideline guideline13, @NonNull Guideline guideline14, @NonNull Guideline guideline4,
       @NonNull Guideline guideline5, @NonNull Guideline guideline6, @NonNull Guideline guideline7,
       @NonNull Guideline guideline8, @NonNull Guideline guideline9, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView5, @NonNull ConstraintLayout main, @NonNull TextView textView5,
-      @NonNull TextView textView7, @NonNull TextView textView8, @NonNull TextView tvGoToRegister) {
+      @NonNull ImageView imageView5, @NonNull ConstraintLayout main,
+      @NonNull ProgressBar progressBar3, @NonNull TextView textView5, @NonNull TextView textView7,
+      @NonNull TextView textView8, @NonNull TextView tvGoToRegister) {
     this.rootView = rootView;
     this.Fbuton = Fbuton;
     this.btnBack = btnBack;
@@ -117,6 +122,7 @@ public final class FragmentLoginsponserBinding implements ViewBinding {
     this.imageView3 = imageView3;
     this.imageView5 = imageView5;
     this.main = main;
+    this.progressBar3 = progressBar3;
     this.textView5 = textView5;
     this.textView7 = textView7;
     this.textView8 = textView8;
@@ -254,6 +260,12 @@ public final class FragmentLoginsponserBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
+      id = R.id.progressBar3;
+      ProgressBar progressBar3 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar3 == null) {
+        break missingId;
+      }
+
       id = R.id.textView5;
       TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
@@ -281,7 +293,8 @@ public final class FragmentLoginsponserBinding implements ViewBinding {
       return new FragmentLoginsponserBinding((ConstraintLayout) rootView, Fbuton, btnBack, btnLogin,
           editTextTextEmailAddress2, editTextTextPassword, guideline11, guideline12, guideline13,
           guideline14, guideline4, guideline5, guideline6, guideline7, guideline8, guideline9,
-          imageView3, imageView5, main, textView5, textView7, textView8, tvGoToRegister);
+          imageView3, imageView5, main, progressBar3, textView5, textView7, textView8,
+          tvGoToRegister);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

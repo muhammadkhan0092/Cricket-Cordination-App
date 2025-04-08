@@ -5,7 +5,12 @@
     "deepLinks": []
   },
   {
-    "name": "main_nav_graph",
+    "name": "player_main_nav",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "sponsor_main_nav",
     "navigationXmlIds": [],
     "deepLinks": []
   }

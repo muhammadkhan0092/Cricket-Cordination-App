@@ -39,19 +39,19 @@ class FragmentNikePage : Fragment() {
 
     private fun Shirt() {
         binding.cardView16.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage6)
+          //  findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage6)
         }
     }
 
     private fun Pads() {
         binding.cardView12.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage5)
+           // findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage5)
         }
     }
 
     private fun Shoes() {
         binding.cardView15.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage4)
+           // findNavController().navigate(R.id.action_fragmentNikePage_to_fragmentGigPage4)
         }
     }
 }

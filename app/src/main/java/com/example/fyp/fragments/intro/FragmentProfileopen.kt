@@ -39,7 +39,7 @@ class FragmentProfileopen : Fragment() {
 
     private fun ontosave() {
         binding.button2.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentProfileopen_to_fragmentProfile2)
+          //  findNavController().navigate(R.id.action_fragmentProfileopen_to_fragmentProfile2)
         }
     }
 }

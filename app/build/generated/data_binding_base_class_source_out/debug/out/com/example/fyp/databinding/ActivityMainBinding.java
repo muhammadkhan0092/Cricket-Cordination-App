@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.fyp.R;
@@ -20,15 +21,29 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final BottomNavigationView bottomNavView;
+  public final BottomNavigationView bnvPlayer;
+
+  @NonNull
+  public final BottomNavigationView bnvSponsor;
+
+  @NonNull
+  public final FragmentContainerView fcvPLayer;
+
+  @NonNull
+  public final FragmentContainerView fcvSponsor;
 
   @NonNull
   public final ConstraintLayout main;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavView, @NonNull ConstraintLayout main) {
+      @NonNull BottomNavigationView bnvPlayer, @NonNull BottomNavigationView bnvSponsor,
+      @NonNull FragmentContainerView fcvPLayer, @NonNull FragmentContainerView fcvSponsor,
+      @NonNull ConstraintLayout main) {
     this.rootView = rootView;
-    this.bottomNavView = bottomNavView;
+    this.bnvPlayer = bnvPlayer;
+    this.bnvSponsor = bnvSponsor;
+    this.fcvPLayer = fcvPLayer;
+    this.fcvSponsor = fcvSponsor;
     this.main = main;
   }
 
@@ -59,15 +74,34 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.bottomNavView;
-      BottomNavigationView bottomNavView = ViewBindings.findChildViewById(rootView, id);
-      if (bottomNavView == null) {
+      id = R.id.bnvPlayer;
+      BottomNavigationView bnvPlayer = ViewBindings.findChildViewById(rootView, id);
+      if (bnvPlayer == null) {
+        break missingId;
+      }
+
+      id = R.id.bnvSponsor;
+      BottomNavigationView bnvSponsor = ViewBindings.findChildViewById(rootView, id);
+      if (bnvSponsor == null) {
+        break missingId;
+      }
+
+      id = R.id.fcvPLayer;
+      FragmentContainerView fcvPLayer = ViewBindings.findChildViewById(rootView, id);
+      if (fcvPLayer == null) {
+        break missingId;
+      }
+
+      id = R.id.fcvSponsor;
+      FragmentContainerView fcvSponsor = ViewBindings.findChildViewById(rootView, id);
+      if (fcvSponsor == null) {
         break missingId;
       }
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavView, main);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bnvPlayer, bnvSponsor, fcvPLayer,
+          fcvSponsor, main);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

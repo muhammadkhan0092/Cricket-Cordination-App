@@ -36,7 +36,6 @@ class FragmentSplashScreen : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         navigate()
-
     }
 
     private fun navigate() {

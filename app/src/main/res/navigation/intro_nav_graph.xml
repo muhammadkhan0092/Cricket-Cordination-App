@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_fragmentLogin_to_fragmentForgetPage3"
             app:destination="@id/fragmentForgetPage3" />
+        <argument
+            android:name="type"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/fragmentReg"
@@ -105,6 +108,9 @@
         <action
             android:id="@+id/action_fragmentRegsponser_to_fragmentLoginsponser"
             app:destination="@id/fragmentLoginsponser" />
+        <argument
+            android:name="type"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/fragmentLoginsponser"
@@ -113,5 +119,12 @@
         <action
             android:id="@+id/action_fragmentLoginsponser_to_fragmentForgetPage3"
             app:destination="@id/fragmentForgetPage3" />
+        <argument
+            android:name="type"
+            app:argType="string" />
     </fragment>
+    <fragment
+        android:id="@+id/fragmentHome2"
+        android:name="com.example.fyp.fragments.main.FragmentHome"
+        android:label="FragmentHome" />
 </navigation>

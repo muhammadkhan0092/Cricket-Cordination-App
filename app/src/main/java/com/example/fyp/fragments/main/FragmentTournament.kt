@@ -51,7 +51,7 @@ class FragmentTournament : Fragment() {
 
     private fun addGround() {
             binding.ground.setOnClickListener {
-                findNavController().navigate(R.id.action_fragmentTournament_to_fragmentRGround)
+               // findNavController().navigate(R.id.action_fragmentTournament_to_fragmentRGround)
             }
     }
 

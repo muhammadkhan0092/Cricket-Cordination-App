@@ -10,19 +10,30 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fyp.R
 import com.example.fyp.activities.MainActivity
 import com.example.fyp.adapters.CricketAdapter
 import com.example.fyp.d
+import com.example.fyp.data.DataProduct
 import com.example.fyp.data.MainData
 import com.example.fyp.databinding.FragmentHomeBinding
 import com.example.fyp.databinding.FragmentRegBinding
 import com.example.fyp.databinding.FragmentSplashScreenBinding
+import com.example.fyp.utils.Resource
+import com.example.fyp.vm.HomeVm
+import com.example.fyp.vm.SponsorSignUpVm
+import com.example.fyp.vmf.HomeVmf
+import com.example.fyp.vmf.SponsorSignUpVmf
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlin.concurrent.timer
@@ -31,6 +42,11 @@ class FragmentHome : Fragment() {
     private lateinit var cricketAdapter: CricketAdapter
     private lateinit var binding : FragmentHomeBinding
     private var type = ""
+    val viewModel by viewModels<HomeVm> {
+        val firestore = FirebaseFirestore.getInstance()
+        val firebaseAuth = FirebaseAuth.getInstance()
+        HomeVmf(firebaseAuth,firestore)
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -43,11 +59,15 @@ class FragmentHome : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupRv()
-        setupData()
+        setupUsersAdapter()
+        observeUsers()
          (activity as MainActivity).data.observe(viewLifecycleOwner){
              type = it
-             
              Log.d("khan","received type in home as $it")
+             if(type=="sponsor"){
+                 viewModel.getUsers()
+                 binding.cardView11.visibility = View.GONE
+             }
          }
 
 
@@ -56,21 +76,45 @@ class FragmentHome : Fragment() {
         }
     }
 
-
-
-    private fun setupData() {
-        val list = listOf(
-            MainData(age = 25, image =R.drawable.babar, name = "Babar Azam", category = "Batsmen"),
-            MainData(age = 26, image =R.drawable.babar, name = "Zaryab Ali Haider", category = "Bowler"),
-            MainData(age = 27, image =R.drawable.babar, name = "Muhammad Khan", category = "Batsmen"),
-            MainData(age = 28, image =R.drawable.babar, name = "Hammad ALi", category = "Batsmen"),
-            MainData(age = 29, image =R.drawable.babar, name = "Muhammad Hamza", category = "Bowler"),
-            MainData(age = 22, image =R.drawable.babar, name = "Moeed Kayani", category = "Batsmen"),
-            MainData(age = 23, image =R.drawable.babar, name = "Hassan Ali", category = "Bowler"),
-
-        )
-        cricketAdapter.differ.submitList(list)
+    private fun setupUsersAdapter() {
+        cricketAdapter = CricketAdapter()
+        binding.rv.adapter = cricketAdapter
+        binding.rv.addItemDecoration(d(50))
+        // binding.rv.isNestedScrollingEnabled = false
+        binding.rv.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
     }
+
+    private fun observeUsers() {
+        lifecycleScope.launch {
+            viewModel.getUser.collectLatest {
+                when(it){
+                    is Resource.Error -> {
+                        Toast.makeText(requireContext(), it.message, Toast.LENGTH_SHORT).show()
+                        binding.progressBar4.visibility = View.INVISIBLE
+                    }
+                    is Resource.Loading -> {
+                        binding.progressBar4.visibility = View.VISIBLE
+                    }
+                    is Resource.Success -> {
+                        binding.progressBar4.visibility = View.INVISIBLE
+                        if(it.data?.size!=0){
+                            cricketAdapter.differ.submitList(it.data!!.toList())
+                        }
+                        else
+                        {
+
+                        }
+                    }
+                    is Resource.Unspecified -> {
+
+                    }
+                }
+            }
+        }
+    }
+
+
+
     private fun setupRv() {
         cricketAdapter = CricketAdapter()
         binding.rv.adapter = cricketAdapter
@@ -78,4 +122,6 @@ class FragmentHome : Fragment() {
        // binding.rv.isNestedScrollingEnabled = false
         binding.rv.layoutManager = LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false)
     }
+
+
 }

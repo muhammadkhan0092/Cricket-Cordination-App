@@ -13,5 +13,6 @@ data class User(
     val phone : String = "",
     val cnic : String ="",
     val  email: String = "",
-    val pass : String =""
+    val pass : String ="",
+    var image : String = ""
 )

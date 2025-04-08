@@ -40,19 +40,19 @@ class FragmentAdidasPage : Fragment() {
 
     private fun Shirt() {
         binding.cardView16.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage9)
+          //  findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage9)
         }
     }
 
     private fun Pads() {
         binding.cardView12.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage8)
+         //   findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage8)
         }
     }
 
     private fun Shoes() {
         binding.cardView15.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage7)
+          //  findNavController().navigate(R.id.action_fragmentAdidasPage_to_fragmentGigPage7)
         }
     }
 }

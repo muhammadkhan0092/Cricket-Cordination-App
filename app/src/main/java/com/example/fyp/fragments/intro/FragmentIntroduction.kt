@@ -43,7 +43,7 @@ class FragmentIntroduction : Fragment() {
                 it.putString("type","sponsor")
             }
             Log.d("khan","sending sponsor from intro")
-            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentReg,bundle)
+            findNavController().navigate(R.id.action_fragmentIntroduction_to_fragmentRegsponser,bundle)
         }
     }
     private fun onGetStartedListener() {

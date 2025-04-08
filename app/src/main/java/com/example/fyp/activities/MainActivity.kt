@@ -2,20 +2,19 @@ package com.example.fyp.activities
 
 import android.os.Bundle
 import android.util.Log
-import androidx.activity.enableEdgeToEdge
+import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.fragment.app.FragmentContainerView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.fyp.R
 import com.example.fyp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+    lateinit var binding: ActivityMainBinding
     var type : String = ""
     private val _data = MutableLiveData<String>()
     val data: LiveData<String> = _data
@@ -26,15 +25,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setType()
-        setupNavigationBar()
     }
 
-    private fun setupNavigationBar() {
-        val colorStateList = ContextCompat.getColorStateList(this,R.color.main_selection)
-        binding.bottomNavView.itemIconTintList = colorStateList
-        val navController = findNavController(R.id.fragmentContainerView)
-        binding.bottomNavView.setupWithNavController(navController)
-    }
 
     fun updateData(newValue: String) {
         _data.value = newValue
@@ -48,6 +40,14 @@ class MainActivity : AppCompatActivity() {
             Log.d("khan","recevied type as :${type}")
             editor.putString("type", data)
             editor.apply()
+            if (data == "player")
+            {
+                setupPlayer()
+            }
+            else if(data=="sponsor")
+            {
+                setupSponsor()
+            }
         }
         else
         {
@@ -58,10 +58,11 @@ class MainActivity : AppCompatActivity() {
                 Log.d("khan","recevied type as :${type}")
                 if (it == "player")
                 {
-
+                    setupPlayer()
                 }
                 else if(it=="sponsor")
                 {
+                    setupSponsor()
                 }
                 else
                 {
@@ -70,5 +71,53 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+    }
+
+    private fun setupSponsor() {
+        Toast.makeText(this, "in sponsor", Toast.LENGTH_SHORT).show()
+        val fragmentSponsor = findViewById<FragmentContainerView>(R.id.fcvSponsor)
+        val fragmentPLayer = findViewById<FragmentContainerView>(R.id.fcvPLayer)
+
+        binding.bnvPlayer.visibility = View.INVISIBLE
+        fragmentPLayer.visibility = View.INVISIBLE
+
+        binding.bnvSponsor.visibility = View.VISIBLE
+        fragmentSponsor.visibility = View.VISIBLE
+
+
+        val navHostFragment= supportFragmentManager.findFragmentById(R.id.fcvSponsor) as NavHostFragment
+        val navController= navHostFragment.navController
+        binding.bnvSponsor.setupWithNavController(navController)
+
+        binding.bnvSponsor.setOnItemSelectedListener { menuItem ->
+            if (navController.currentDestination?.id != menuItem.itemId) {
+                navController.navigate(menuItem.itemId)
+            }
+            true
+        }
+    }
+
+    private fun setupPlayer() {
+        Toast.makeText(this, "in player", Toast.LENGTH_SHORT).show()
+        val fragmentSponsor = findViewById<FragmentContainerView>(R.id.fcvSponsor)
+        val fragmentPLayer = findViewById<FragmentContainerView>(R.id.fcvPLayer)
+
+        binding.bnvSponsor.visibility = View.INVISIBLE
+        fragmentSponsor.visibility = View.INVISIBLE
+
+        binding.bnvPlayer.visibility = View.VISIBLE
+        fragmentPLayer.visibility = View.VISIBLE
+
+
+        val navHostFragment= supportFragmentManager.findFragmentById(R.id.fcvPLayer) as NavHostFragment
+        val navController= navHostFragment.navController
+        binding.bnvPlayer.setupWithNavController(navController)
+
+        binding.bnvPlayer.setOnItemSelectedListener { menuItem ->
+            if (navController.currentDestination?.id != menuItem.itemId) {
+                navController.navigate(menuItem.itemId)
+            }
+            true
+        }
     }
 }

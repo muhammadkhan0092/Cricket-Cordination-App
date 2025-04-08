@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_bar.xml"
+    app:startDestination="@id/fragmentHome3">
+    <fragment
+        android:id="@+id/fragmentStore2"
+        android:name="com.example.fyp.fragments.main.FragmentStore"
+        android:label="FragmentStore" />
+    <fragment
+        android:id="@+id/fragmentHome3"
+        android:name="com.example.fyp.fragments.main.FragmentHome"
+        android:label="FragmentHome" />
+    <fragment
+        android:id="@+id/fragmentSponsorProfile"
+        android:name="com.example.fyp.fragments.intro.FragmentSponsorProfile"
+        android:label="FragmentSponsorProfile" >
+        <action
+            android:id="@+id/action_fragmentSponsorProfile_to_fragmentSponsorProfileEdit"
+            app:destination="@id/fragmentSponsorProfileEdit" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSponsorProfileEdit"
+        android:name="com.example.fyp.fragments.intro.FragmentSponsorProfileEdit"
+        android:label="FragmentSponsorProfileEdit" >
+        <argument
+            android:name="sponsor"
+            app:argType="com.example.fyp.data.DataSponsor" />
+    </fragment>
+</navigation>

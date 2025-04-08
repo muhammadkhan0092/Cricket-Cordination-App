@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -61,6 +62,9 @@ public final class FragmentStoreBinding implements ViewBinding {
   public final ImageView niike;
 
   @NonNull
+  public final ProgressBar progressBar6;
+
+  @NonNull
   public final ImageView puma;
 
   @NonNull
@@ -88,10 +92,10 @@ public final class FragmentStoreBinding implements ViewBinding {
       @NonNull Button button3, @NonNull CardView cardView17, @NonNull CardView cardView5,
       @NonNull CardView cardView6, @NonNull CardView cardView7, @NonNull CardView cardView8,
       @NonNull EditText editText3, @NonNull ImageView imageView16, @NonNull ImageView imageView20,
-      @NonNull ImageView imageView6, @NonNull ImageView niike, @NonNull ImageView puma,
-      @NonNull RecyclerView recyclerView, @NonNull ImageView reebok, @NonNull TextView textView13,
-      @NonNull TextView textView24, @NonNull TextView textView40, @NonNull TextView textView41,
-      @NonNull TextView textView6) {
+      @NonNull ImageView imageView6, @NonNull ImageView niike, @NonNull ProgressBar progressBar6,
+      @NonNull ImageView puma, @NonNull RecyclerView recyclerView, @NonNull ImageView reebok,
+      @NonNull TextView textView13, @NonNull TextView textView24, @NonNull TextView textView40,
+      @NonNull TextView textView41, @NonNull TextView textView6) {
     this.rootView = rootView;
     this.adidas = adidas;
     this.button3 = button3;
@@ -105,6 +109,7 @@ public final class FragmentStoreBinding implements ViewBinding {
     this.imageView20 = imageView20;
     this.imageView6 = imageView6;
     this.niike = niike;
+    this.progressBar6 = progressBar6;
     this.puma = puma;
     this.recyclerView = recyclerView;
     this.reebok = reebok;
@@ -214,6 +219,12 @@ public final class FragmentStoreBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.progressBar6;
+      ProgressBar progressBar6 = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar6 == null) {
+        break missingId;
+      }
+
       id = R.id.puma;
       ImageView puma = ViewBindings.findChildViewById(rootView, id);
       if (puma == null) {
@@ -264,7 +275,8 @@ public final class FragmentStoreBinding implements ViewBinding {
 
       return new FragmentStoreBinding((ScrollView) rootView, adidas, button3, cardView17, cardView5,
           cardView6, cardView7, cardView8, editText3, imageView16, imageView20, imageView6, niike,
-          puma, recyclerView, reebok, textView13, textView24, textView40, textView41, textView6);
+          progressBar6, puma, recyclerView, reebok, textView13, textView24, textView40, textView41,
+          textView6);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

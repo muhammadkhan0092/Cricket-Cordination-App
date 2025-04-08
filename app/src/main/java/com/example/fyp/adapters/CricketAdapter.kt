@@ -5,7 +5,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.fyp.data.MainData
+import com.example.fyp.data.User
 import com.example.fyp.databinding.RsBrandsItemBinding
 import com.example.fyp.databinding.RvCricketItemBinding
 
@@ -15,12 +17,12 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
     inner class CricketViewHolder(val binding : RvCricketItemBinding) : RecyclerView.ViewHolder(binding.root){
     }
 
-    private val diffUtil =object : DiffUtil.ItemCallback<MainData>(){
-        override fun areItemsTheSame(oldItem: MainData, newItem: MainData): Boolean {
+    private val diffUtil =object : DiffUtil.ItemCallback<User>(){
+        override fun areItemsTheSame(oldItem: User, newItem: User): Boolean {
             return oldItem==newItem
         }
 
-        override fun areContentsTheSame(oldItem: MainData, newItem: MainData): Boolean {
+        override fun areContentsTheSame(oldItem: User, newItem: User): Boolean {
             return oldItem == newItem
         }
 
@@ -41,9 +43,10 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
     override fun onBindViewHolder(holder: CricketViewHolder, position: Int) {
         val item = differ.currentList[position]
         holder.binding.apply {
-            cv.setImageResource(item.image)
+            if(!item.image.isNullOrEmpty()){
+                Glide.with(holder.itemView).load(item.image).into(cv)
+            }
             textView20.text = item.name
-            textView62.text = item.category
         }
         holder.itemView.setOnClickListener {
             onClick?.invoke(item)
@@ -54,7 +57,7 @@ class CricketAdapter : RecyclerView.Adapter<CricketAdapter.CricketViewHolder>(){
         return differ.currentList.size
     }
 
-    var onClick : ((MainData) -> Unit)? = null
+    var onClick : ((User) -> Unit)? = null
 
 
 }

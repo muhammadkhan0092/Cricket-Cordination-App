@@ -41,19 +41,19 @@ class FragmentReebokPage : Fragment() {
 
     private fun Shirt() {
         binding.cardView16.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage12)
+           // findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage12)
         }
     }
 
     private fun Pads() {
         binding.cardView12.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage11)
+          //  findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage11)
         }
     }
 
     private fun Shoes() {
         binding.cardView15.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage10)
+          //  findNavController().navigate(R.id.action_fragmentReebokPage_to_fragmentGigPage10)
         }
     }
 }

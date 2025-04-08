@@ -39,12 +39,12 @@ class FragmentProfile : Fragment() {
 
     private fun lohouut() {
         binding.logout.setOnClickListener {
-            findNavController().navigate(R.id.action_fragmentProfileopen_to_fragmentIntroduction2)
+          //  findNavController().navigate(R.id.action_fragmentProfileopen_to_fragmentIntroduction2)
         }    }
 
     private fun onGoToEdit() {
         binding.button.setOnClickListener {
-        findNavController().navigate(R.id.action_fragmentProfile2_to_fragmentProfileopen)
+       // findNavController().navigate(R.id.action_fragmentProfile2_to_fragmentProfileopen)
     }
     }
 

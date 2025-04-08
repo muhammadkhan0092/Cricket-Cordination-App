@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.google.gms.google.services)
     id("androidx.navigation.safeargs.kotlin")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -58,5 +59,6 @@ dependencies {
     implementation("androidx.navigation:navigation-fragment-ktx:2.8.4")
     implementation("androidx.navigation:navigation-ui-ktx:2.8.4")
     implementation("de.hdodenhof:circleimageview:3.1.0")
-
+    implementation("com.github.bumptech.glide:glide:4.13.0")
+    implementation ("com.cloudinary:cloudinary-android:3.0.2")
 }
