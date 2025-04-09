@@ -1,17 +1,17 @@
-#Tue Apr 08 17:33:49 GST 2025
-base.0=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.10=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.11=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.12=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
-base.2=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.4=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.5=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.6=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
-base.7=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.8=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.9=C\:\\Users\\rockz\\AndroidStudioProjects\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
+#Wed Apr 09 00:32:02 PKT 2025
+base.0=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.11=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.12=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+base.2=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.6=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.7=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.8=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.9=C\:\\Cricket-Cordination-App\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=8/classes.dex

@@ -4128,6 +4128,7 @@ int id pathRelative 0x7f0a0262
 int id peekHeight 0x7f0a0263
 int id percent 0x7f0a0264
 int id pin 0x7f0a0265
+int id pname 0x7f0a037a
 int id pooling_container_listener_holder_tag 0x7f0a0266
 int id position 0x7f0a0267
 int id postLayout 0x7f0a0268
@@ -4147,6 +4148,7 @@ int id ratio 0x7f0a0275
 int id rectangles 0x7f0a0276
 int id recyclerView 0x7f0a0277
 int id recyclerView2 0x7f0a0278
+int id recyclerView3 0x7f0a037b
 int id reebok 0x7f0a0279
 int id report_drawn 0x7f0a027a
 int id reverseSawtooth 0x7f0a027b
@@ -4528,6 +4530,7 @@ int layout activity_upload_widget 0x7f0d001e
 int layout aspect_ratio_menu_item 0x7f0d001f
 int layout browser_actions_context_menu_page 0x7f0d0020
 int layout browser_actions_context_menu_row 0x7f0d0021
+int layout card_brands_item 0x7f0d00af
 int layout crop_menu_item 0x7f0d0022
 int layout custom_dialog 0x7f0d0023
 int layout design_bottom_navigation_item 0x7f0d0024
@@ -4557,6 +4560,7 @@ int layout exo_styled_sub_settings_list_item 0x7f0d003b
 int layout exo_track_selection_dialog 0x7f0d003c
 int layout fingerprint_dialog_layout 0x7f0d003d
 int layout fragment_adidaspage 0x7f0d003e
+int layout fragment_allbrands 0x7f0d00b0
 int layout fragment_crop_rotate 0x7f0d003f
 int layout fragment_fpage 0x7f0d0040
 int layout fragment_gig 0x7f0d0041
@@ -4571,6 +4575,7 @@ int layout fragment_gig6 0x7f0d0049
 int layout fragment_gig7 0x7f0d004a
 int layout fragment_gig8 0x7f0d004b
 int layout fragment_gig9 0x7f0d004c
+int layout fragment_gigs 0x7f0d00b1
 int layout fragment_home 0x7f0d004d
 int layout fragment_introduction 0x7f0d004e
 int layout fragment_login 0x7f0d004f

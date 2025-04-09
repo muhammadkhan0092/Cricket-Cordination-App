@@ -4129,6 +4129,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pname
 id pooling_container_listener_holder_tag
 id position
 id postLayout
@@ -4148,6 +4149,7 @@ id ratio
 id rectangles
 id recyclerView
 id recyclerView2
+id recyclerView3
 id reebok
 id report_drawn
 id reverseSawtooth
@@ -4529,6 +4531,7 @@ layout activity_upload_widget
 layout aspect_ratio_menu_item
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout card_brands_item
 layout crop_menu_item
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -4558,6 +4561,7 @@ layout exo_styled_sub_settings_list_item
 layout exo_track_selection_dialog
 layout fingerprint_dialog_layout
 layout fragment_adidaspage
+layout fragment_allbrands
 layout fragment_crop_rotate
 layout fragment_fpage
 layout fragment_gig
@@ -4572,6 +4576,7 @@ layout fragment_gig6
 layout fragment_gig7
 layout fragment_gig8
 layout fragment_gig9
+layout fragment_gigs
 layout fragment_home
 layout fragment_introduction
 layout fragment_login

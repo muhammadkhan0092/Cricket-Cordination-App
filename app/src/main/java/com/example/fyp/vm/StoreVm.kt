@@ -23,10 +23,11 @@ class StoreVm(val firebaseAuth: FirebaseAuth, val firestore : FirebaseFirestore)
 
 
     fun getProducts(){
-        firestore.collection("products")
+        firestore.collection("product")
             .get()
             .addOnSuccessListener {
                 val data = it.toObjects(DataProduct::class.java)
+                Log.d("khan","data is $data")
                 if(data!=null && data.size!=0){
                   viewModelScope.launch {
                       _getProducts.emit(Resource.Success(data))

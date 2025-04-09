@@ -182,6 +182,7 @@ id guideline6
 id guideline7
 id guideline8
 id guideline9
+id image
 id imageView
 id imageView10
 id imageView11
@@ -243,6 +244,7 @@ id logout
 id main
 id main_nav_bar.xml
 id niike
+id pname
 id progressBar
 id progressBar2
 id progressBar3
@@ -253,6 +255,7 @@ id progressBar7
 id puma
 id recyclerView
 id recyclerView2
+id recyclerView3
 id reebok
 id rs
 id rv
@@ -355,7 +358,9 @@ id tvGoToRegister
 id view
 layout activity_intro
 layout activity_main
+layout card_brands_item
 layout fragment_adidaspage
+layout fragment_allbrands
 layout fragment_fpage
 layout fragment_gig
 layout fragment_gig10
@@ -369,6 +374,7 @@ layout fragment_gig6
 layout fragment_gig7
 layout fragment_gig8
 layout fragment_gig9
+layout fragment_gigs
 layout fragment_home
 layout fragment_introduction
 layout fragment_login
